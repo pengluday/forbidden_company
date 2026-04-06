@@ -1,0 +1,157 @@
+:root {
+  --bg: #f6f4ef;
+  --panel: #fffdf7;
+  --text: #1f1f1f;
+  --muted: #666;
+  --primary: #9f2f2f;
+  --accent: #d8a31a;
+  --border: #e6dcc9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "PingFang SC", "Noto Sans SC", sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 20% 10%, #fff4db 0, transparent 30%),
+    radial-gradient(circle at 80% 0%, #ffe7cf 0, transparent 35%),
+    var(--bg);
+}
+
+.hero {
+  padding: 48px 20px 28px;
+  border-bottom: 1px solid var(--border);
+}
+
+.hero h1 {
+  margin: 0 0 12px;
+  font-size: clamp(1.8rem, 2.7vw, 2.8rem);
+}
+
+.hero p {
+  margin: 0 0 10px;
+  max-width: 840px;
+  line-height: 1.6;
+}
+
+.notice {
+  color: #7e5a00;
+  font-weight: 600;
+}
+
+.container {
+  width: min(1080px, 94vw);
+  margin: 24px auto 48px;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 1fr;
+  gap: 12px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+input,
+select,
+button {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  background: #fff;
+}
+
+.tabs {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 10px;
+}
+
+.tab {
+  cursor: pointer;
+}
+
+.tab.active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+.result-count {
+  color: var(--muted);
+  margin: 14px 4px;
+}
+
+.company-list {
+  display: grid;
+  gap: 14px;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-left: 5px solid var(--primary);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.card h3 {
+  margin: 0 0 8px;
+}
+
+.meta {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.tag {
+  display: inline-block;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  background: #f0e7d6;
+}
+
+.status {
+  font-weight: 600;
+  color: #5e2a2a;
+}
+
+.evidence {
+  margin-top: 8px;
+  border-top: 1px dashed var(--border);
+  padding-top: 8px;
+}
+
+.evidence li {
+  margin-bottom: 7px;
+  line-height: 1.5;
+}
+
+a {
+  color: #7b3f00;
+}
+
+.empty {
+  padding: 30px;
+  text-align: center;
+  border: 1px dashed var(--border);
+  border-radius: 14px;
+  background: #fffefb;
+}
+
+@media (max-width: 760px) {
+  .controls {
+    grid-template-columns: 1fr;
+  }
+}

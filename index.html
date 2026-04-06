@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>35+ 职场歧视公司目录</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>35+ 职场公平观察目录</h1>
+    <p>聚合公开来源线索，建立可核验的风险公司名单，支持理性避雷消费决策。</p>
+    <p class="notice">声明：本网站展示公开线索与核验状态，不构成法律结论。</p>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <input id="searchInput" type="text" placeholder="搜索公司名称" />
+
+      <select id="sourceFilter">
+        <option value="all">全部来源</option>
+        <option value="xiaohongshu">小红书</option>
+        <option value="douyin">抖音</option>
+        <option value="news">新闻</option>
+        <option value="jobsite">招聘网站</option>
+      </select>
+
+      <select id="statusFilter">
+        <option value="all">全部核验状态</option>
+        <option value="pending">待核验</option>
+        <option value="partial">部分核验</option>
+        <option value="verified">已核验</option>
+      </select>
+
+      <div class="tabs">
+        <button class="tab active" data-view="all">公司目录</button>
+        <button class="tab" data-view="boycott">拒绝消费清单</button>
+      </div>
+    </section>
+
+    <section>
+      <p id="resultCount" class="result-count"></p>
+      <div id="companyList" class="company-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

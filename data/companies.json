@@ -1,0 +1,73 @@
+[
+  {
+    "id": "c-001",
+    "name": "星河互动科技",
+    "industry": "互联网",
+    "riskLevel": "high",
+    "verificationStatus": "partial",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-06",
+    "summary": "多个来源出现对35+候选人设置隐性年龄门槛的线索。",
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "某招聘帖要求“35岁以下优先”",
+        "sourceUrl": "https://example.com/job-1",
+        "capturedAt": "2026-04-03",
+        "summary": "岗位描述出现明确年龄偏好。"
+      },
+      {
+        "sourceType": "xiaohongshu",
+        "sourceTitle": "用户面试复盘提及年龄筛选",
+        "sourceUrl": "https://example.com/xhs-1",
+        "capturedAt": "2026-04-01",
+        "summary": "多条帖子反馈35+简历未进入面试。"
+      }
+    ]
+  },
+  {
+    "id": "c-002",
+    "name": "海岳零售集团",
+    "industry": "零售",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": false,
+    "lastUpdated": "2026-04-05",
+    "summary": "短视频平台出现零星反馈，需更多交叉证据。",
+    "evidence": [
+      {
+        "sourceType": "douyin",
+        "sourceTitle": "候选人分享“被年龄卡掉”经历",
+        "sourceUrl": "https://example.com/dy-1",
+        "capturedAt": "2026-04-04",
+        "summary": "单一来源，待补充招聘信息佐证。"
+      }
+    ]
+  },
+  {
+    "id": "c-003",
+    "name": "晨风出行服务",
+    "industry": "本地生活",
+    "riskLevel": "high",
+    "verificationStatus": "verified",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-06",
+    "summary": "新闻与招聘平台均有可追溯材料，风险较高。",
+    "evidence": [
+      {
+        "sourceType": "news",
+        "sourceTitle": "媒体调查提及年龄限制招聘现象",
+        "sourceUrl": "https://example.com/news-1",
+        "capturedAt": "2026-04-02",
+        "summary": "报道中出现岗位年龄偏好样本。"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "招聘信息中存在年龄范围描述",
+        "sourceUrl": "https://example.com/job-2",
+        "capturedAt": "2026-04-05",
+        "summary": "与外部反馈可互相印证。"
+      }
+    ]
+  }
+]
