@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小红书采集器</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">XHS Collector</p>
+          <h1>小红书采集器</h1>
+        </div>
+        <span id="serviceBadge" class="badge">检查中</span>
+      </section>
+
+      <section class="card">
+        <label class="label" for="baseUrl">本机服务地址</label>
+        <input id="baseUrl" type="text" placeholder="http://127.0.0.1:8787" />
+        <div class="row">
+          <label class="check">
+            <input id="includeComments" type="checkbox" checked />
+            <span>包含评论</span>
+          </label>
+          <label class="check">
+            <span>评论上限</span>
+            <input id="commentLimit" type="number" min="0" step="1" value="0" />
+          </label>
+        </div>
+        <div class="row actions">
+          <button id="saveSettings" class="secondary">保存设置</button>
+          <button id="collectPage" class="primary">采集当前页</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>当前页面</h2>
+          <button id="refreshState" class="ghost">刷新</button>
+        </div>
+        <p id="pageTitle" class="muted">-</p>
+        <p id="pageUrl" class="mono muted">-</p>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>结果摘要</h2>
+          <button id="downloadCsv" class="ghost">CSV</button>
+        </div>
+        <div class="metrics">
+          <div><span>帖子</span><strong id="postCount">0</strong></div>
+          <div><span>评论</span><strong id="commentCount">0</strong></div>
+          <div><span>总计</span><strong id="recordCount">0</strong></div>
+        </div>
+        <p id="resultStatus" class="muted">等待采集</p>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>最近任务</h2>
+          <button id="downloadJson" class="ghost">JSON</button>
+        </div>
+        <div id="historyList" class="history"></div>
+      </section>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

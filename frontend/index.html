@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>35+ 职场歧视公司目录</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>35+ 职场公平观察目录</h1>
+    <p>聚合公开来源线索，建立可核验的风险公司名单，支持理性避雷消费决策。</p>
+    <p class="notice">声明：本网站展示公开线索与核验状态，不构成法律结论。</p>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <input id="searchInput" type="text" placeholder="搜索公司名称" />
+
+      <select id="sourceFilter">
+        <option value="all">全部来源</option>
+        <option value="xiaohongshu">小红书</option>
+        <option value="douyin">抖音</option>
+        <option value="news">新闻</option>
+        <option value="jobsite">招聘网站</option>
+      </select>
+
+      <select id="statusFilter">
+        <option value="all">全部核验状态</option>
+        <option value="pending">待核验</option>
+        <option value="partial">部分核验</option>
+        <option value="verified">已核验</option>
+      </select>
+
+      <div class="tabs">
+        <button class="tab active" data-view="all">公司目录</button>
+        <button class="tab" data-view="boycott">拒绝消费清单</button>
+      </div>
+
+      <div class="actions-bar">
+        <button id="refreshDataBtn">刷新最新数据</button>
+        <button id="toggleContributionBtn">我要补充线索/产品</button>
+      </div>
+    </section>
+
+    <section id="contributionPanel" class="contribution hidden">
+      <div class="contrib-card">
+        <h3>用户补充线索（提交后进入审核）</h3>
+        <div class="form-row">
+          <input id="uCompany" placeholder="公司名称*" />
+          <input id="uPlatform" placeholder="来源平台（如猎聘/小红书）*" />
+          <select id="uSourceType">
+            <option value="jobsite">招聘网站</option>
+            <option value="news">新闻</option>
+            <option value="xiaohongshu">小红书</option>
+            <option value="douyin">抖音</option>
+          </select>
+          <input id="uUrl" placeholder="来源 URL*" />
+        </div>
+        <div class="form-row">
+          <input id="uTitle" placeholder="来源标题" />
+          <input id="uCity" placeholder="城市" />
+          <input id="uJobTitle" placeholder="岗位名称" />
+          <input id="uQuote" placeholder="证据原文片段（例如：35岁以下）" />
+        </div>
+        <textarea id="uSummary" placeholder="证据摘要（建议尽量客观）"></textarea>
+        <button class="primary" id="submitEvidenceBtn">提交线索（待审核）</button>
+        <p id="uEvidenceMsg" class="hint"></p>
+      </div>
+
+      <div class="contrib-card">
+        <h3>用户补充公司产品（提交后进入审核）</h3>
+        <div class="form-row">
+          <input id="uProductCompany" placeholder="公司名称*" />
+          <input id="uProductName" placeholder="产品名称*" />
+          <input id="uProductCategory" placeholder="产品分类" />
+          <select id="uProductConfidence">
+            <option value="unverified">unverified</option>
+            <option value="partial">partial</option>
+            <option value="verified">verified</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <input id="uProductUrl" placeholder="产品 URL（可空）" />
+          <input id="uProductNote" placeholder="补充说明" value="community submit" />
+        </div>
+        <button class="primary" id="submitProductBtn">提交产品映射（待审核）</button>
+        <p id="uProductMsg" class="hint"></p>
+      </div>
+    </section>
+
+    <section>
+      <p id="resultCount" class="result-count"></p>
+      <div id="pagination" class="pagination"></div>
+      <div id="companyList" class="company-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

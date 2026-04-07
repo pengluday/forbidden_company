@@ -1,0 +1,2 @@
+# One URL per line.
+# Put Liepin / BOSS直聘 / 智联招聘 job URLs here for Firecrawl validation.

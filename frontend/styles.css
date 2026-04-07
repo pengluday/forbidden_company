@@ -74,6 +74,12 @@ button {
   gap: 10px;
 }
 
+.actions-bar {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 10px;
+}
+
 .tab {
   cursor: pointer;
 }
@@ -87,6 +93,35 @@ button {
 .result-count {
   color: var(--muted);
   margin: 14px 4px;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin: 0 0 14px;
+}
+
+.page-btn {
+  min-width: 40px;
+  cursor: pointer;
+}
+
+.page-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.page-btn.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+.page-ellipsis {
+  color: var(--muted);
+  padding: 0 4px;
 }
 
 .company-list {
@@ -127,6 +162,77 @@ button {
   color: #5e2a2a;
 }
 
+.pending-tip {
+  margin-top: 8px;
+  margin-bottom: 0;
+  color: #8a6d00;
+  font-weight: 600;
+}
+
+.products {
+  margin-top: 8px;
+}
+
+.products ul {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+.products li {
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.inline-btn {
+  margin-left: 6px;
+  font-size: 0.82rem;
+  padding: 3px 8px;
+}
+
+.contribution {
+  margin-top: 14px;
+  display: grid;
+  gap: 12px;
+}
+
+.contribution.hidden {
+  display: none;
+}
+
+.contrib-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.contrib-card h3 {
+  margin-top: 0;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 72px;
+}
+
+.primary {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+.hint {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 .evidence {
   margin-top: 8px;
   border-top: 1px dashed var(--border);
@@ -153,5 +259,13 @@ a {
 @media (max-width: 760px) {
   .controls {
     grid-template-columns: 1fr;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .actions-bar {
+    flex-direction: column;
   }
 }

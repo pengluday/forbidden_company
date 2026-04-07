@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>核验后台最小页</title>
+  <style>
+    :root {
+      --bg: #f7f6f3;
+      --panel: #ffffff;
+      --line: #ddd7c7;
+      --text: #222;
+      --muted: #666;
+      --primary: #8b1e1e;
+      --ok: #0a7a3e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "PingFang SC", "Noto Sans SC", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(90deg, #fff6e8, #fff);
+    }
+    .wrap {
+      width: min(1200px, 96vw);
+      margin: 14px auto 28px;
+      display: grid;
+      gap: 12px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .row {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    input, select, textarea, button {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 14px;
+    }
+    textarea { min-height: 66px; }
+    button {
+      cursor: pointer;
+      background: #fff;
+    }
+    .primary {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #fff;
+    }
+    .ok {
+      background: var(--ok);
+      border-color: var(--ok);
+      color: #fff;
+    }
+    .toolbar {
+      display: grid;
+      grid-template-columns: 2fr 1fr auto auto;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .hint {
+      color: var(--muted);
+      font-size: 13px;
+      margin: 4px 0 0;
+    }
+    .logbox {
+      margin-top: 8px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfaf7;
+      color: #333;
+      font-size: 12px;
+      white-space: pre-wrap;
+      max-height: 220px;
+      overflow: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th, td {
+      border-bottom: 1px solid #eee;
+      text-align: left;
+      padding: 7px 6px;
+      vertical-align: top;
+    }
+    .actions {
+      display: grid;
+      gap: 6px;
+    }
+    .status { font-weight: 700; }
+    .status.pending { color: #8a6d00; }
+    .status.partial { color: #8b1e1e; }
+    .status.verified { color: #0a7a3e; }
+    .status.error { color: #666666; }
+    @media (max-width: 860px) {
+      .row { grid-template-columns: 1fr; }
+      .toolbar { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>35+ 线索核验后台（最小版）</h2>
+    <p class="hint">支持：智联一键采集、手工采集录入、核验提升、公司产品映射、一键导出前端数据（data/companies.json）</p>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h3>0. 智联一键采集</h3>
+      <p class="hint">只抓智联招聘原始列表，不抓详情页；筛选词固定为「35岁以下 + 10000人以上」，后续筛选交给后台人工审核。</p>
+      <button class="primary" id="btnRunZhilian">抓取智联最新100条列表</button>
+      <p class="hint" id="collectRunMsg"></p>
+      <pre class="logbox" id="collectRunLog" aria-live="polite"></pre>
+    </section>
+
+    <section class="card">
+      <h3>0.2 小红书帖子/评论采集</h3>
+      <p class="hint">每行一个小红书帖子或分享链接。脚本会尽量抓取帖子正文，并从页面内容里提取评论片段。</p>
+      <textarea id="xhs_urls" placeholder="每行一个小红书 URL"></textarea>
+      <div class="row" style="margin-top:8px;">
+        <input id="xhs_company" placeholder="公司名称（建议填写）" />
+        <input id="xhs_limit" placeholder="最多处理条数" value="20" />
+        <input id="xhs_comment_limit" placeholder="评论数上限，0=全部" value="0" />
+        <input id="xhs_platform" placeholder="来源平台" value="小红书" />
+      </div>
+      <div class="row" style="margin-top:8px;">
+        <input id="xhs_cookie_file" placeholder="Cookie 文件路径（可选）" />
+        <input id="xhs_comment_host" placeholder="评论 API Host" value="https://edith.xiaohongshu.com" />
+      </div>
+      <div style="margin-top:8px; display:flex; gap:8px;">
+        <button class="primary" id="btnRunXiaohongshu">运行小红书采集</button>
+      </div>
+      <p class="hint" id="xhsRunMsg"></p>
+      <pre class="logbox" id="xhsRunLog" aria-live="polite"></pre>
+    </section>
+
+    <section class="card">
+      <h3>0.2.1 单条刷新</h3>
+      <p class="hint">输入单个小红书链接后，按钮会先删旧记录，再重新抓帖子和评论。</p>
+      <input id="xhs_refresh_url" placeholder="小红书链接" />
+      <div class="row" style="margin-top:8px;">
+        <input id="xhs_refresh_company" placeholder="公司名称（可选）" />
+        <input id="xhs_refresh_comment_limit" placeholder="评论数上限，0=全部" value="0" />
+      </div>
+      <div style="margin-top:8px; display:flex; gap:8px;">
+        <button class="primary" id="btnRefreshXiaohongshu">一键刷新帖子 + 评论</button>
+      </div>
+      <p class="hint" id="xhsRefreshMsg"></p>
+      <pre class="logbox" id="xhsRefreshLog" aria-live="polite"></pre>
+    </section>
+
+    <section class="card">
+      <h3>0.3 小红书 Cookie</h3>
+      <p class="hint">这里保存的是后台本地 cookie，不会回显原文。保存后，小红书评论采集会自动读取它。</p>
+      <textarea id="xhs_cookie" placeholder="粘贴完整 Cookie 字符串"></textarea>
+      <div style="margin-top:8px; display:flex; gap:8px;">
+        <button class="primary" id="btnSaveXhsCookie">保存/更新 Cookie</button>
+      </div>
+      <p class="hint" id="xhsCookieMsg"></p>
+    </section>
+
+    <section class="card">
+      <h3>1. 新增采集线索（不用命令行）</h3>
+      <div class="row">
+        <input id="c_company" placeholder="公司名称*" />
+        <input id="c_platform" placeholder="来源平台（默认智联）" value="智联招聘" />
+        <input id="c_url" placeholder="来源 URL*" />
+        <input id="c_title" placeholder="来源标题" />
+      </div>
+      <div class="row">
+        <input id="c_city" placeholder="城市" />
+        <input id="c_job" placeholder="岗位名称" />
+        <input id="c_quote" placeholder="证据原文片段（例如：35岁以下）" />
+        <input id="c_date" placeholder="采集日期（YYYY-MM-DD）" />
+      </div>
+      <textarea id="c_summary" placeholder="证据摘要"></textarea>
+      <div style="margin-top:8px; display:flex; gap:8px;">
+        <button class="primary" id="btnCollect">提交采集记录</button>
+        <button id="btnExportTop">导出前端 JSON</button>
+      </div>
+      <p class="hint" id="collectMsg"></p>
+    </section>
+
+    <section class="card">
+      <h3>2. 采集记录核验</h3>
+      <div class="toolbar">
+        <input id="q" placeholder="搜索公司/标题/URL" />
+        <select id="statusFilter">
+          <option value="all">全部状态</option>
+          <option value="pending">pending</option>
+          <option value="partial">partial</option>
+          <option value="verified">verified</option>
+          <option value="error">error</option>
+        </select>
+        <button id="btnRefresh">刷新列表</button>
+        <button class="ok" id="btnExport">导出 JSON</button>
+      </div>
+      <div style="overflow:auto; max-height: 420px;">
+        <table>
+          <thead>
+            <tr>
+              <th>公司</th>
+              <th>证据摘要</th>
+              <th>状态</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <p class="hint" id="listMsg"></p>
+    </section>
+
+    <section class="card">
+      <h3>3. 公司-产品映射</h3>
+      <div class="row">
+        <input id="p_company" placeholder="公司名称*" />
+        <input id="p_name" placeholder="产品名称*" />
+        <input id="p_category" placeholder="品类（如保险/文创）" />
+        <select id="p_conf">
+          <option value="unverified">unverified</option>
+          <option value="partial">partial</option>
+          <option value="verified">verified</option>
+        </select>
+      </div>
+      <div class="row">
+        <input id="p_url" placeholder="产品 URL（可空）" />
+        <input id="p_note" placeholder="来源备注" value="admin-ui" />
+      </div>
+      <button class="primary" id="btnProduct">提交产品映射到审核队列</button>
+      <div class="toolbar" style="margin-top:10px;">
+        <input id="pq" placeholder="搜索公司/产品" />
+        <button id="btnProductsRefresh">刷新审核列表</button>
+      </div>
+      <div style="overflow:auto; max-height: 260px;">
+        <table>
+          <thead>
+            <tr>
+              <th>公司</th>
+              <th>产品</th>
+              <th>分类</th>
+              <th>状态</th>
+              <th>备注</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody id="productRows"></tbody>
+        </table>
+      </div>
+      <p class="hint" id="productMsg"></p>
+    </section>
+  </main>
+
+  <script>
+    async function api(path, method = 'GET', body = null) {
+      const opts = { method, headers: { 'Content-Type': 'application/json' } };
+      if (body) opts.body = JSON.stringify(body);
+      const res = await fetch(path, opts);
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || '请求失败');
+      return data;
+    }
+
+    function esc(s) {
+      return (s || '').replace(/[&<>"]/g, (c) => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]));
+    }
+
+    async function loadRows() {
+      const q = document.getElementById('q').value.trim();
+      const status = document.getElementById('statusFilter').value;
+      const msg = document.getElementById('listMsg');
+      try {
+        const data = await api(`/api/collected?q=${encodeURIComponent(q)}&status=${encodeURIComponent(status)}`);
+        const tbody = document.getElementById('rows');
+        tbody.innerHTML = '';
+        for (const row of data.items) {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>
+              <div><strong>${esc(row.company_name)}</strong></div>
+              <div class="hint">${esc(row.source_platform || '')}</div>
+              <div><a href="${esc(row.source_url)}" target="_blank" rel="noopener noreferrer">来源链接</a></div>
+            </td>
+            <td>
+              <div>${esc(row.evidence_summary || row.evidence_quote || '')}</div>
+              <div class="hint">${esc(row.source_title || '')} · ${esc(row.captured_at || '')}</div>
+            </td>
+            <td><span class="status ${esc(row.verification_status)}">${esc(row.verification_status)}</span></td>
+            <td>
+              <div class="actions">
+                <input data-id="${esc(row.record_id)}" class="verifier" placeholder="verifier" value="jack" />
+                <input data-id="${esc(row.record_id)}" class="note" placeholder="核验备注" value="人工核验" />
+                <select data-id="${esc(row.record_id)}" class="level">
+                  <option value="partial">partial</option>
+                  <option value="verified">verified</option>
+                  <option value="error">error</option>
+                </select>
+                <select data-id="${esc(row.record_id)}" class="risk">
+                  <option value="low">low</option>
+                  <option value="medium" selected>medium</option>
+                  <option value="high">high</option>
+                </select>
+                <label><input data-id="${esc(row.record_id)}" class="boycott" type="checkbox" ${row.boycott_recommended ? 'checked' : ''}/> boycott</label>
+                <button onclick="verifyOne('${esc(row.record_id)}')">提交核验</button>
+              </div>
+            </td>
+          `;
+          tbody.appendChild(tr);
+        }
+        msg.textContent = `共 ${data.items.length} 条记录`;
+      } catch (e) {
+        msg.textContent = e.message;
+      }
+    }
+
+    async function verifyOne(recordId) {
+      const pick = (cls) => document.querySelector(`.${cls}[data-id='${recordId}']`);
+      const payload = {
+        record_id: recordId,
+        verifier: pick('verifier').value.trim(),
+        note: pick('note').value.trim(),
+        status: pick('level').value,
+        risk_level: pick('risk').value,
+        boycott_recommended: pick('boycott').checked,
+      };
+      const msg = document.getElementById('listMsg');
+      try {
+        await api('/api/verify', 'POST', payload);
+        msg.textContent = `核验成功: ${recordId}`;
+        await loadRows();
+      } catch (e) {
+        msg.textContent = e.message;
+      }
+    }
+
+    async function submitCollect() {
+      const payload = {
+        company_name: document.getElementById('c_company').value.trim(),
+        source_platform: document.getElementById('c_platform').value.trim() || '智联招聘',
+        source_url: document.getElementById('c_url').value.trim(),
+        source_title: document.getElementById('c_title').value.trim(),
+        city: document.getElementById('c_city').value.trim(),
+        job_title: document.getElementById('c_job').value.trim(),
+        evidence_quote: document.getElementById('c_quote').value.trim(),
+        evidence_summary: document.getElementById('c_summary').value.trim(),
+        captured_at: document.getElementById('c_date').value.trim(),
+      };
+      const msg = document.getElementById('collectMsg');
+      try {
+        const res = await api('/api/collect', 'POST', payload);
+        msg.textContent = `采集成功: ${res.record_id}`;
+        await loadRows();
+      } catch (e) {
+        msg.textContent = e.message;
+      }
+    }
+
+    async function submitProduct() {
+      const payload = {
+        company_name: document.getElementById('p_company').value.trim(),
+        product_name: document.getElementById('p_name').value.trim(),
+        product_category: document.getElementById('p_category').value.trim(),
+        product_url: document.getElementById('p_url').value.trim(),
+        confidence: document.getElementById('p_conf').value,
+        source_note: document.getElementById('p_note').value.trim(),
+      };
+      const msg = document.getElementById('productMsg');
+      try {
+        await api('/api/product', 'POST', payload);
+        msg.textContent = '产品映射已进入审核队列';
+        await loadProducts();
+      } catch (e) {
+        msg.textContent = e.message;
+      }
+    }
+
+    async function loadProducts() {
+      const q = document.getElementById('pq').value.trim();
+      const msg = document.getElementById('productMsg');
+      try {
+        const [approved, pending] = await Promise.all([
+          api(`/api/products?q=${encodeURIComponent(q)}`),
+          api(`/api/product-submissions?q=${encodeURIComponent(q)}`),
+        ]);
+        const tbody = document.getElementById('productRows');
+        tbody.innerHTML = '';
+        const rows = [
+          ...pending.items.map((row) => ({
+            ...row,
+            review_status: row.review_status || 'pending',
+            _isPending: true,
+          })),
+          ...approved.items.map((row) => ({
+            ...row,
+            review_status: 'approved',
+            _isPending: false,
+          })),
+        ];
+        for (const row of rows) {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${esc(row.company_name)}</td>
+            <td>${row.product_url ? `<a href="${esc(row.product_url)}" target="_blank" rel="noopener noreferrer">${esc(row.product_name)}</a>` : esc(row.product_name)}</td>
+            <td>${esc(row.product_category || '')}</td>
+            <td>${esc(row.review_status || row.confidence || '')}</td>
+            <td>${esc(row.source_note || row.reviewed_note || '')}</td>
+            <td>
+              ${
+                row._isPending
+                  ? `<button onclick="approveProduct(${row.id})">通过</button>`
+                  : '<span class="hint">已通过</span>'
+              }
+            </td>
+          `;
+          tbody.appendChild(tr);
+        }
+        msg.textContent = `产品审核项 ${rows.length} 条`;
+      } catch (e) {
+        msg.textContent = e.message;
+      }
+    }
+
+    async function approveProduct(submissionId) {
+      const msg = document.getElementById('productMsg');
+      try {
+        await api('/api/approve-product', 'POST', {
+          submission_id: submissionId,
+          reviewer: 'jack',
+          reviewed_note: '后台审核通过',
+        });
+        msg.textContent = '产品审核已通过';
+        await loadProducts();
+      } catch (e) {
+        msg.textContent = e.message;
+      }
+    }
+
+    async function exportJson(targetMsgId) {
+      const msg = document.getElementById(targetMsgId);
+      try {
+        await api('/api/export', 'POST', {});
+        msg.textContent = '已导出 data/companies.json';
+      } catch (e) {
+        msg.textContent = e.message;
+      }
+    }
+
+    async function runZhilianCollection() {
+      const msg = document.getElementById('collectRunMsg');
+      const log = document.getElementById('collectRunLog');
+      log.textContent = '正在启动智联采集...';
+      try {
+        const res = await api('/api/collect-zhilian', 'POST', {});
+        msg.textContent = '智联采集已完成，结果已写入数据库并刷新前台。';
+        const combined = (res.log || [res.stdout, res.stderr].filter(Boolean).join('\n\n')).trim();
+        log.textContent = combined || '采集完成，没有额外日志。';
+        await loadRows();
+        await loadProducts();
+        return res;
+      } catch (e) {
+        msg.textContent = e.message;
+        log.textContent = `采集失败：${e.message}`;
+      }
+    }
+
+    async function loadXhsCookieStatus() {
+      const msg = document.getElementById('xhsCookieMsg');
+      try {
+        const data = await api('/api/xhs-cookie');
+        msg.textContent = data.configured
+          ? `已保存 Cookie，文件：${data.path}，长度：${data.length}`
+          : `尚未保存 Cookie，文件：${data.path}`;
+      } catch (e) {
+        msg.textContent = e.message;
+      }
+    }
+
+    async function saveXhsCookie() {
+      const msg = document.getElementById('xhsCookieMsg');
+      const cookie = document.getElementById('xhs_cookie').value.trim();
+      if (!cookie) {
+        msg.textContent = '请先粘贴 Cookie 字符串';
+        return;
+      }
+      try {
+        const data = await api('/api/xhs-cookie', 'POST', { cookie });
+        document.getElementById('xhs_cookie').value = '';
+        msg.textContent = data.configured
+          ? `Cookie 已保存，文件：${data.path}，长度：${data.length}`
+          : 'Cookie 保存失败';
+      } catch (e) {
+        msg.textContent = e.message;
+      }
+    }
+
+    async function runXiaohongshuCollection() {
+      const msg = document.getElementById('xhsRunMsg');
+      const log = document.getElementById('xhsRunLog');
+      const urls = document.getElementById('xhs_urls').value
+        .split(/\r?\n/)
+        .map(line => line.trim())
+        .filter(Boolean);
+      const companyName = document.getElementById('xhs_company').value.trim();
+      const sourcePlatform = document.getElementById('xhs_platform').value.trim() || '小红书';
+      const limit = Number(document.getElementById('xhs_limit').value.trim() || urls.length || 20);
+      const commentLimitRaw = document.getElementById('xhs_comment_limit').value.trim();
+      const commentLimit = commentLimitRaw === '' ? 0 : Number(commentLimitRaw);
+      if (!urls.length) {
+        msg.textContent = '请先粘贴至少 1 条小红书 URL';
+        return;
+      }
+      log.textContent = '正在启动小红书采集...';
+      try {
+        const res = await api('/api/collect-xiaohongshu', 'POST', {
+          urls,
+          company_name: companyName,
+          source_platform: sourcePlatform,
+          limit,
+          comment_limit: commentLimit,
+          cookie_file: document.getElementById('xhs_cookie_file').value.trim(),
+          comment_api_host: document.getElementById('xhs_comment_host').value.trim(),
+          include_comments: true,
+        });
+        msg.textContent = '小红书采集已完成。';
+        const combined = (res.log || [res.stdout, res.stderr].filter(Boolean).join('\n\n')).trim();
+        log.textContent = combined || '小红书采集完成，没有额外日志。';
+        await loadRows();
+        await loadProducts();
+      } catch (e) {
+        msg.textContent = e.message;
+        log.textContent = `小红书采集失败：${e.message}`;
+      }
+    }
+
+    async function refreshSingleXiaohongshu() {
+      const msg = document.getElementById('xhsRefreshMsg');
+      const log = document.getElementById('xhsRefreshLog');
+      const url = document.getElementById('xhs_refresh_url').value.trim();
+      const companyName = document.getElementById('xhs_refresh_company').value.trim();
+      const commentLimitRaw = document.getElementById('xhs_refresh_comment_limit').value.trim();
+      const commentLimit = commentLimitRaw === '' ? 0 : Number(commentLimitRaw);
+      if (!url) {
+        msg.textContent = '请先填写一个小红书链接';
+        return;
+      }
+      log.textContent = '正在刷新帖子和评论...';
+      try {
+        const res = await api('/api/refresh-xiaohongshu', 'POST', {
+          url,
+          company_name: companyName,
+          comment_limit: commentLimit,
+          include_comments: true,
+        });
+        msg.textContent = '刷新完成，已更新数据库。';
+        log.textContent = (res.log || '').trim() || '刷新完成。';
+        await loadRows();
+        await loadProducts();
+      } catch (e) {
+        msg.textContent = e.message;
+        log.textContent = `刷新失败：${e.message}`;
+      }
+    }
+
+    document.getElementById('btnCollect').addEventListener('click', submitCollect);
+    document.getElementById('btnRefresh').addEventListener('click', loadRows);
+    document.getElementById('btnProduct').addEventListener('click', submitProduct);
+    document.getElementById('btnProductsRefresh').addEventListener('click', loadProducts);
+    document.getElementById('btnRunZhilian').addEventListener('click', runZhilianCollection);
+    document.getElementById('btnRunXiaohongshu').addEventListener('click', runXiaohongshuCollection);
+    document.getElementById('btnRefreshXiaohongshu').addEventListener('click', refreshSingleXiaohongshu);
+    document.getElementById('btnSaveXhsCookie').addEventListener('click', saveXhsCookie);
+    document.getElementById('btnExport').addEventListener('click', () => exportJson('listMsg'));
+    document.getElementById('btnExportTop').addEventListener('click', () => exportJson('collectMsg'));
+
+    loadXhsCookieStatus();
+    loadRows();
+    loadProducts();
+  </script>
+</body>
+</html>

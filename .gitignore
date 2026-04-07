@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+.cursor/
+_bmad/
+_bmad-output/
+
+# runtime artifacts
+data/*.db
+data/*-cron.log
+data/source-intake-liepin-*.csv
+data/xiaohongshu-cookie.txt
+data/xhs-plugin-results/
