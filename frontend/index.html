@@ -8,14 +8,22 @@
 </head>
 <body>
   <header class="hero">
-    <h1>35+ 职场公平观察目录</h1>
-    <p>聚合公开来源线索，建立可核验的风险公司名单，支持理性避雷消费决策。</p>
+    <h1>35+ 职场风险结论面板</h1>
+    <p>先看结论，再看证据；先看公司对应什么产品，再判断是否继续投递或消费。</p>
     <p class="notice">声明：本网站展示公开线索与核验状态，不构成法律结论。</p>
   </header>
 
   <main class="container">
     <section class="controls">
       <input id="searchInput" type="text" placeholder="搜索公司名称" />
+
+      <select id="conclusionFilter">
+        <option value="all">全部结论</option>
+        <option value="clear">明确存在35+筛选</option>
+        <option value="suspected">疑似存在35+筛选</option>
+        <option value="insufficient">证据不足</option>
+        <option value="none">暂无年龄相关线索</option>
+      </select>
 
       <select id="sourceFilter">
         <option value="all">全部来源</option>
@@ -39,9 +47,11 @@
 
       <div class="actions-bar">
         <button id="refreshDataBtn">刷新最新数据</button>
-        <button id="toggleContributionBtn">我要补充线索/产品</button>
+        <button id="toggleContributionBtn">我要补充线索</button>
       </div>
     </section>
+
+    <section id="summaryBar" class="summary-bar" aria-live="polite"></section>
 
     <section id="contributionPanel" class="contribution hidden">
       <div class="contrib-card">
@@ -67,32 +77,14 @@
         <button class="primary" id="submitEvidenceBtn">提交线索（待审核）</button>
         <p id="uEvidenceMsg" class="hint"></p>
       </div>
-
-      <div class="contrib-card">
-        <h3>用户补充公司产品（提交后进入审核）</h3>
-        <div class="form-row">
-          <input id="uProductCompany" placeholder="公司名称*" />
-          <input id="uProductName" placeholder="产品名称*" />
-          <input id="uProductCategory" placeholder="产品分类" />
-          <select id="uProductConfidence">
-            <option value="unverified">unverified</option>
-            <option value="partial">partial</option>
-            <option value="verified">verified</option>
-          </select>
-        </div>
-        <div class="form-row">
-          <input id="uProductUrl" placeholder="产品 URL（可空）" />
-          <input id="uProductNote" placeholder="补充说明" value="community submit" />
-        </div>
-        <button class="primary" id="submitProductBtn">提交产品映射（待审核）</button>
-        <p id="uProductMsg" class="hint"></p>
-      </div>
     </section>
 
     <section>
       <p id="resultCount" class="result-count"></p>
       <div id="pagination" class="pagination"></div>
       <div id="companyList" class="company-list"></div>
+      <section id="detailPanel" class="detail-panel hidden" aria-live="polite"></section>
+      <section id="productPanel" class="detail-panel product-panel hidden" aria-live="polite"></section>
     </section>
   </main>
 

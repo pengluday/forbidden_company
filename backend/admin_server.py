@@ -17,7 +17,7 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 from collectors.collection_utils import normalize_company_name, normalize_dedupe_key
-from backend.company_export import build_company_records
+from backend.company_export import build_company_records, derive_auto_age_review, sync_company_summaries
 
 ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / 'data' / 'forbidden_company.db'
@@ -336,6 +336,7 @@ def create_collected(payload: dict) -> dict:
             ''',
             row,
         )
+        refresh_company_summary(conn, company_name)
         conn.commit()
     finally:
         conn.close()
@@ -401,6 +402,7 @@ def verify_record(payload: dict) -> dict:
             ''',
             (status, risk_level, boycott, note, note, record_id),
         )
+        refresh_company_summary(conn, row['company_name'])
         conn.commit()
     finally:
         conn.close()
@@ -436,6 +438,7 @@ def upsert_product(payload: dict) -> dict:
             ''',
             (company, product, category, url, note, payload.get('submitted_by') or 'admin-ui'),
         )
+        refresh_company_summary(conn, company)
         conn.commit()
     finally:
         conn.close()
@@ -479,6 +482,7 @@ def approve_product_submission(payload: dict) -> dict:
             ''',
             (row['company_name'], row['product_name'], row['product_category'], row['product_url'], 'verified', row['source_note'] or note),
         )
+        refresh_company_summary(conn, row['company_name'])
         conn.execute(
             '''
             UPDATE pending_product_submissions
@@ -497,6 +501,227 @@ def approve_product_submission(payload: dict) -> dict:
     return {'ok': True, 'submission_id': submission_id, 'status': 'approved'}
 
 
+def _latest_company_product_line(conn: sqlite3.Connection, company: str) -> str:
+    row = conn.execute(
+        '''
+        SELECT business_line
+        FROM company_product_lines
+        WHERE company_name = ?
+        ORDER BY
+          CASE confidence
+            WHEN 'high' THEN 3
+            WHEN 'medium' THEN 2
+            WHEN 'low' THEN 1
+            ELSE 0
+          END DESC,
+          updated_at DESC,
+          id DESC
+        LIMIT 1
+        ''',
+        (company,),
+    ).fetchone()
+    if row and row['business_line']:
+        return row['business_line']
+
+    row = conn.execute(
+        '''
+        SELECT product_category
+        FROM company_products
+        WHERE company_name = ?
+        ORDER BY updated_at DESC, id DESC
+        LIMIT 1
+        ''',
+        (company,),
+    ).fetchone()
+    return (row['product_category'] if row and row['product_category'] else '') or ''
+
+
+def refresh_company_summary(conn: sqlite3.Connection, company_name: str) -> None:
+    evidence_rows = conn.execute(
+        '''
+        SELECT
+          c.captured_at,
+          c.source_title,
+          c.job_title,
+          c.evidence_quote,
+          c.evidence_summary,
+          c.notes,
+          c.risk_level,
+          c.boycott_recommended
+        FROM collected_evidence c
+        WHERE c.company_name = ?
+          AND c.verification_status != 'error'
+        ORDER BY c.captured_at DESC, c.id DESC
+        ''',
+        (company_name,),
+    ).fetchall()
+    evidence_count_row = conn.execute(
+        'SELECT COUNT(*) AS count FROM collected_evidence WHERE company_name = ?',
+        (company_name,),
+    ).fetchone()
+
+    review = derive_auto_age_review(company_name, evidence_rows)
+    product_line = _latest_company_product_line(conn, company_name)
+    age_risk_conclusion = review['conclusion']
+    age_risk_confidence = review['confidence']
+    conclusion_reason = review['reason']
+    evidence_level = review['evidenceLevel']
+    last_reviewed_at = review['reviewedAt']
+    risk_level = review['riskLevel']
+    boycott_recommended = int(review['boycottRecommended'])
+    last_evidence_at = review['lastEvidenceAt'] or None
+    evidence_count = int(evidence_count_row['count'] if evidence_count_row else 0)
+
+    conn.execute(
+        '''
+        DELETE FROM company_conclusions
+        WHERE company_name = ? AND reviewer = 'auto-engine'
+        ''',
+        (company_name,),
+    )
+    conn.execute(
+        '''
+        INSERT INTO company_conclusions (
+          company_name, product_name, business_line, age_risk_conclusion,
+          age_risk_confidence, reason, evidence_count, evidence_level,
+          reviewer, reviewed_at
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ''',
+        (
+            company_name,
+            review['productName'],
+            review['businessLine'],
+            age_risk_conclusion,
+            age_risk_confidence,
+            conclusion_reason,
+            review['evidenceCount'] or evidence_count,
+            evidence_level,
+            'auto-engine',
+            last_reviewed_at,
+        ),
+    )
+
+    conn.execute(
+        '''
+        INSERT INTO companies (
+          company_name, product_line, age_risk_conclusion, age_risk_confidence,
+          risk_level, conclusion_reason, evidence_level, last_evidence_at,
+          last_reviewed_at, boycott_recommended, updated_at
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+        ON CONFLICT(company_name) DO UPDATE SET
+          product_line=excluded.product_line,
+          age_risk_conclusion=excluded.age_risk_conclusion,
+          age_risk_confidence=excluded.age_risk_confidence,
+          risk_level=excluded.risk_level,
+          conclusion_reason=excluded.conclusion_reason,
+          evidence_level=excluded.evidence_level,
+          last_evidence_at=excluded.last_evidence_at,
+          last_reviewed_at=excluded.last_reviewed_at,
+          boycott_recommended=excluded.boycott_recommended,
+          updated_at=CURRENT_TIMESTAMP
+        ''',
+        (
+            company_name,
+            product_line,
+            age_risk_conclusion,
+            age_risk_confidence,
+            risk_level,
+            conclusion_reason,
+            evidence_level,
+            last_evidence_at,
+            last_reviewed_at,
+            boycott_recommended,
+        ),
+    )
+
+
+def upsert_company_conclusion(payload: dict) -> dict:
+    company = (payload.get('company_name') or '').strip()
+    if not company:
+        raise ValueError('company_name is required')
+
+    conclusion = (payload.get('age_risk_conclusion') or 'insufficient').strip()
+    confidence = (payload.get('age_risk_confidence') or 'low').strip()
+    product_name = (payload.get('product_name') or '').strip()
+    business_line = (payload.get('business_line') or '').strip()
+    reason = (payload.get('reason') or '').strip()
+    evidence_level = (payload.get('evidence_level') or 'L1').strip()
+    reviewer = (payload.get('reviewer') or 'admin-ui').strip()
+    reviewed_at = (payload.get('reviewed_at') or now_date()).strip() or now_date()
+    evidence_count = int(payload.get('evidence_count') or 0)
+
+    if conclusion not in {'clear', 'suspected', 'insufficient', 'none'}:
+        raise ValueError('age_risk_conclusion must be clear/suspected/insufficient/none')
+    if confidence not in {'low', 'medium', 'high'}:
+        raise ValueError('age_risk_confidence must be low/medium/high')
+    if evidence_level not in {'L1', 'L2', 'L3'}:
+        raise ValueError('evidence_level must be L1/L2/L3')
+
+    conn = connect_db()
+    try:
+        conn.execute(
+            '''
+            INSERT INTO company_conclusions (
+              company_name, product_name, business_line, age_risk_conclusion,
+              age_risk_confidence, reason, evidence_count, evidence_level,
+              reviewer, reviewed_at
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''',
+            (company, product_name, business_line, conclusion, confidence, reason, evidence_count, evidence_level, reviewer, reviewed_at),
+        )
+        refresh_company_summary(conn, company)
+        conn.commit()
+    finally:
+        conn.close()
+
+    return {'ok': True, 'company_name': company, 'age_risk_conclusion': conclusion}
+
+
+def upsert_company_product_line(payload: dict) -> dict:
+    company = (payload.get('company_name') or '').strip()
+    product = (payload.get('product_name') or '').strip()
+    if not company:
+        raise ValueError('company_name is required')
+    if not product:
+        raise ValueError('product_name is required')
+
+    business_line = (payload.get('business_line') or '').strip()
+    category = (payload.get('product_category') or '').strip()
+    mapping_status = (payload.get('mapping_status') or 'unverified').strip()
+    mapping_source = (payload.get('mapping_source') or 'admin-ui').strip()
+    confidence = (payload.get('confidence') or 'low').strip()
+
+    if mapping_status not in {'unverified', 'partial', 'verified'}:
+        raise ValueError('mapping_status must be unverified/partial/verified')
+    if confidence not in {'low', 'medium', 'high'}:
+        raise ValueError('confidence must be low/medium/high')
+
+    conn = connect_db()
+    try:
+        conn.execute(
+            '''
+            INSERT INTO company_product_lines (
+              company_name, product_name, business_line, product_category,
+              mapping_status, mapping_source, confidence
+            ) VALUES (?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT(company_name, product_name) DO UPDATE SET
+              business_line=excluded.business_line,
+              product_category=excluded.product_category,
+              mapping_status=excluded.mapping_status,
+              mapping_source=excluded.mapping_source,
+              confidence=excluded.confidence,
+              updated_at=CURRENT_TIMESTAMP
+            ''',
+            (company, product, business_line, category, mapping_status, mapping_source, confidence),
+        )
+        refresh_company_summary(conn, company)
+        conn.commit()
+    finally:
+        conn.close()
+
+    return {'ok': True, 'company_name': company, 'product_name': product, 'mapping_status': mapping_status}
+
+
 def list_products(params: dict[str, list[str]]) -> dict:
     query = (params.get('q') or [''])[0].strip()
     where = ''
@@ -512,6 +737,91 @@ def list_products(params: dict[str, list[str]]) -> dict:
             f'''
             SELECT company_name, product_name, product_category, product_url, confidence, source_note, updated_at
             FROM company_products
+            {where}
+            ORDER BY updated_at DESC, company_name ASC
+            LIMIT 500
+            ''',
+            args,
+        ).fetchall()
+        items = [dict(r) for r in rows]
+    finally:
+        conn.close()
+    return {'items': items}
+
+
+def list_company_product_lines(params: dict[str, list[str]]) -> dict:
+    query = (params.get('q') or [''])[0].strip()
+    where = ''
+    args: list[str] = []
+    if query:
+        where = 'WHERE company_name LIKE ? OR product_name LIKE ? OR business_line LIKE ? OR product_category LIKE ?'
+        like = f'%{query}%'
+        args = [like, like, like, like]
+
+    conn = connect_db()
+    try:
+        rows = conn.execute(
+            f'''
+            SELECT company_name, product_name, business_line, product_category, mapping_status, mapping_source, confidence, updated_at
+            FROM company_product_lines
+            {where}
+            ORDER BY updated_at DESC, company_name ASC
+            LIMIT 500
+            ''',
+            args,
+        ).fetchall()
+        items = [dict(r) for r in rows]
+    finally:
+        conn.close()
+    return {'items': items}
+
+
+def list_company_conclusions(params: dict[str, list[str]]) -> dict:
+    query = (params.get('q') or [''])[0].strip()
+    where = ''
+    args: list[str] = []
+    if query:
+        where = 'WHERE company_name LIKE ? OR product_name LIKE ? OR business_line LIKE ? OR reason LIKE ?'
+        like = f'%{query}%'
+        args = [like, like, like, like]
+
+    conn = connect_db()
+    try:
+        rows = conn.execute(
+            f'''
+            SELECT company_name, product_name, business_line, age_risk_conclusion,
+                   age_risk_confidence, reason, evidence_count, evidence_level,
+                   reviewer, reviewed_at, created_at
+            FROM company_conclusions
+            {where}
+            ORDER BY created_at DESC, id DESC
+            LIMIT 500
+            ''',
+            args,
+        ).fetchall()
+        items = [dict(r) for r in rows]
+    finally:
+        conn.close()
+    return {'items': items}
+
+
+def list_company_summaries(params: dict[str, list[str]]) -> dict:
+    query = (params.get('q') or [''])[0].strip()
+    where = ''
+    args: list[str] = []
+    if query:
+        where = 'WHERE company_name LIKE ? OR product_line LIKE ? OR conclusion_reason LIKE ?'
+        like = f'%{query}%'
+        args = [like, like, like]
+
+    conn = connect_db()
+    try:
+        rows = conn.execute(
+            f'''
+            SELECT company_name, product_line, age_risk_conclusion, age_risk_confidence,
+                   risk_level, conclusion_reason, evidence_level, last_evidence_at,
+                   last_reviewed_at, boycott_recommended, created_at, updated_at
+            FROM companies
             {where}
             ORDER BY updated_at DESC, company_name ASC
             LIMIT 500
@@ -858,7 +1168,14 @@ def build_company_list() -> list[dict]:
 
 
 def export_companies_json() -> dict:
-    result = build_company_list()
+    conn = connect_db()
+    try:
+        result = build_company_records(conn, include_pending=True)
+        sync_company_summaries(conn, result)
+        conn.commit()
+    finally:
+        conn.close()
+
     output_path = ROOT / 'data' / 'companies.json'
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
@@ -887,6 +1204,27 @@ class AdminHandler(SimpleHTTPRequestHandler):
         if parsed.path == '/api/products':
             try:
                 payload = list_products(parse_qs(parsed.query))
+                json_response(self, payload)
+            except Exception as e:  # pylint: disable=broad-except
+                json_response(self, {'error': str(e)}, status=500)
+            return
+        if parsed.path == '/api/company-summaries':
+            try:
+                payload = list_company_summaries(parse_qs(parsed.query))
+                json_response(self, payload)
+            except Exception as e:  # pylint: disable=broad-except
+                json_response(self, {'error': str(e)}, status=500)
+            return
+        if parsed.path == '/api/company-product-lines':
+            try:
+                payload = list_company_product_lines(parse_qs(parsed.query))
+                json_response(self, payload)
+            except Exception as e:  # pylint: disable=broad-except
+                json_response(self, {'error': str(e)}, status=500)
+            return
+        if parsed.path == '/api/company-conclusions':
+            try:
+                payload = list_company_conclusions(parse_qs(parsed.query))
                 json_response(self, payload)
             except Exception as e:  # pylint: disable=broad-except
                 json_response(self, {'error': str(e)}, status=500)
@@ -997,6 +1335,16 @@ class AdminHandler(SimpleHTTPRequestHandler):
                 export_companies_json()
                 json_response(self, result, status=201)
                 return
+            if parsed.path == '/api/company-conclusion':
+                result = upsert_company_conclusion(payload)
+                export_companies_json()
+                json_response(self, result, status=201)
+                return
+            if parsed.path == '/api/company-product-line':
+                result = upsert_company_product_line(payload)
+                export_companies_json()
+                json_response(self, result, status=201)
+                return
             if parsed.path == '/api/approve-product':
                 result = approve_product_submission(payload)
                 export_companies_json()
@@ -1045,6 +1393,7 @@ def parse_args() -> argparse.Namespace:
 def main() -> int:
     args = parse_args()
     ensure_db()
+    export_companies_json()
 
     server = ThreadingHTTPServer((args.host, args.port), AdminHandler)
     print(f'[START] admin server at http://{args.host}:{args.port}/admin/')

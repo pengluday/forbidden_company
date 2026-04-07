@@ -3,12 +3,23 @@
     "id": "c-9eb002041bbb",
     "name": "上海梁生实业有限公司",
     "industry": "待补充",
-    "riskLevel": "low",
+    "riskLevel": "medium",
     "verificationStatus": "partial",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -16,7 +27,10 @@
         "sourceTitle": "仓库打包员招聘",
         "sourceUrl": "https://www.liepin.com/job/1940398599.shtml",
         "capturedAt": "2026-04-06",
-        "summary": "职位描述出现明确年龄上限，存在年龄筛选线索"
+        "evidenceQuote": "要求35岁以下",
+        "summary": "职位描述出现明确年龄上限，存在年龄筛选线索",
+        "jobTitle": "仓库打包员",
+        "notes": "来自搜索快照，需人工二次打开页面核验 | 人工核验"
       }
     ]
   },
@@ -24,12 +38,23 @@
     "id": "c-9418464fcd32",
     "name": "上海胤誉智维企业服务有限公司",
     "industry": "待补充",
-    "riskLevel": "medium",
+    "riskLevel": "high",
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "clear",
+    "ageRiskConfidence": "high",
+    "conclusionReason": "发现 3 条证据包含“35岁以下/35周岁以下”，达到明确风险阈值。",
+    "evidenceLevel": "L3",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 3,
     "pendingProducts": [],
     "evidence": [
       {
@@ -37,84 +62,65 @@
         "sourceTitle": "急招配送员 就近分配 单量稳定 综合7k-12k 准时发薪（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC489857930J40840126901.htm",
         "capturedAt": "2026-04-06",
-        "summary": "自营酒水门店 驻店骑手急招单多好送·就近安排·新手可带·薪资可观 工作亮点自营门店直招，驻店接单不用等，市区门店就近安排，通勤超方便！配送范围超近：以门店为中心0.1-4公里，短距离跑单，轻松不累岗位职责1. 引导客户关注公众号，协助完成线上下单2. 负责酒水订单配送，全程跟进物"
+        "evidenceQuote": "",
+        "summary": "自营酒水门店 驻店骑手急招单多好送·就近安排·新手可带·薪资可观 工作亮点自营门店直招，驻店接单不用等，市区门店就近安排，通勤超方便！配送范围超近：以门店为中心0.1-4公里，短距离跑单，轻松不累岗位职责1. 引导客户关注公众号，协助完成线上下单2. 负责酒水订单配送，全程跟进物",
+        "jobTitle": "急招配送员 就近分配 单量稳定 综合7k-12k 准时发薪",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=1000-9999人; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "急招配送员 就近分配 单量稳定 综合7k-12k 准时发薪（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC489857930J40840130701.htm",
         "capturedAt": "2026-04-06",
-        "summary": "自营酒水门店 驻店骑手急招单多好送·就近安排·新手可带·薪资可观 工作亮点自营门店直招，驻店接单不用等，市区门店就近安排，通勤超方便！配送范围超近：以门店为中心0.1-4公里，短距离跑单，轻松不累岗位职责1. 引导客户关注公众号，协助完成线上下单2. 负责酒水订单配送，全程跟进物"
+        "evidenceQuote": "",
+        "summary": "自营酒水门店 驻店骑手急招单多好送·就近安排·新手可带·薪资可观 工作亮点自营门店直招，驻店接单不用等，市区门店就近安排，通勤超方便！配送范围超近：以门店为中心0.1-4公里，短距离跑单，轻松不累岗位职责1. 引导客户关注公众号，协助完成线上下单2. 负责酒水订单配送，全程跟进物",
+        "jobTitle": "急招配送员 就近分配 单量稳定 综合7k-12k 准时发薪",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=1000-9999人; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "急招配送员 就近分配 单量稳定 综合7k-12k 准时发薪（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC489857930J40840130601.htm",
         "capturedAt": "2026-04-06",
-        "summary": "自营酒水门店 驻店骑手急招单多好送·就近安排·新手可带·薪资可观 工作亮点自营门店直招，驻店接单不用等，市区门店就近安排，通勤超方便！配送范围超近：以门店为中心0.1-4公里，短距离跑单，轻松不累岗位职责1. 引导客户关注公众号，协助完成线上下单2. 负责酒水订单配送，全程跟进物"
+        "evidenceQuote": "",
+        "summary": "自营酒水门店 驻店骑手急招单多好送·就近安排·新手可带·薪资可观 工作亮点自营门店直招，驻店接单不用等，市区门店就近安排，通勤超方便！配送范围超近：以门店为中心0.1-4公里，短距离跑单，轻松不累岗位职责1. 引导客户关注公众号，协助完成线上下单2. 负责酒水订单配送，全程跟进物",
+        "jobTitle": "急招配送员 就近分配 单量稳定 综合7k-12k 准时发薪",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=1000-9999人; backend-review-needed"
       }
     ]
   },
   {
-    "id": "c-01abcd223a96",
-    "name": "中国人寿",
+    "id": "c-e0b9506e8c35",
+    "name": "东风汽车",
     "industry": "待补充",
     "riskLevel": "medium",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
         "sourceType": "jobsite",
-        "sourceTitle": "行政招聘 周末双休，待遇好招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/4c1b1e43dbf4efdf1XN539q0ElFQ.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
-      }
-    ]
-  },
-  {
-    "id": "c-25ff7387625c",
-    "name": "中国人寿临平支公司",
-    "industry": "待补充",
-    "riskLevel": "medium",
-    "verificationStatus": "pending",
-    "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
-    "summary": "来自数据库导出，需持续补充多源证据。",
-    "products": [],
-    "pendingProducts": [],
-    "evidence": [
-      {
-        "sourceType": "jobsite",
-        "sourceTitle": "人事专员+周末双休（不加班）招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/d94b727babf7a6bf1HN429-8FFdY.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
-      }
-    ]
-  },
-  {
-    "id": "c-f1680814950f",
-    "name": "中国人寿保险",
-    "industry": "待补充",
-    "riskLevel": "medium",
-    "verificationStatus": "pending",
-    "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
-    "summary": "来自数据库导出，需持续补充多源证据。",
-    "products": [],
-    "pendingProducts": [],
-    "evidence": [
-      {
-        "sourceType": "jobsite",
-        "sourceTitle": "文员双休 朝九晚五招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/06163030b53dfa211HN639u_EFJV.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
+        "sourceTitle": "海外经营管理岗-国际事业部（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC679989880J40849515705.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "1、年龄要求：原则上35岁以下，特别优秀者可适当放宽",
+        "summary": "岗位职责:1、负责推进集团海外战略规划落地，协调配置资源，并检核关键策略进展情况，及时纠偏；2、负责海外市场洞察和竞争对手对标分析，制定分区域/国别竞争策略；3、负责集团海外经营目标管理，推进目标分解和各单位达成策略制定，并动态跟踪目标达成进展；4、负责海外日常经营分析，根据目标",
+        "jobTitle": "海外经营管理岗-国际事业部",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -126,8 +132,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -135,7 +152,10 @@
         "sourceTitle": "央企售后专员 双休 有资源（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1276364820J40892126112.htm",
         "capturedAt": "2026-04-06",
-        "summary": "负责中国人寿老客户维护、保单服务、续期提醒等工作。公司提供客户资源，不用陌拜，不用盲目开发。带薪培训，一对一带教，双休，时间自由。适合想找稳定工作、长期发展、想多赚收入的人员。"
+        "evidenceQuote": "",
+        "summary": "负责中国人寿老客户维护、保单服务、续期提醒等工作。公司提供客户资源，不用陌拜，不用盲目开发。带薪培训，一对一带教，双休，时间自由。适合想找稳定工作、长期发展、想多赚收入的人员。",
+        "jobTitle": "央企售后专员 双休 有资源",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -147,8 +167,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
     "pendingProducts": [],
     "evidence": [
       {
@@ -156,14 +187,20 @@
         "sourceTitle": "主管助理/售后专员（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC410449410J40840127401.htm",
         "capturedAt": "2026-04-06",
-        "summary": "招募助理一、工作内容:1.网站维护，线上线下招募等工作。2.公司提供老客户名单，邀约客户领取公司提供的各类礼品(无业绩考核)。3.无业绩要求。2.工作时间:1.早8:30-晚3:30(特殊情况可以调整)2.按照国家法定节假日休息!周末双休。3.任职要求:年龄:25-45周岁，学历"
+        "evidenceQuote": "",
+        "summary": "招募助理一、工作内容:1.网站维护，线上线下招募等工作。2.公司提供老客户名单，邀约客户领取公司提供的各类礼品(无业绩考核)。3.无业绩要求。2.工作时间:1.早8:30-晚3:30(特殊情况可以调整)2.按照国家法定节假日休息!周末双休。3.任职要求:年龄:25-45周岁，学历",
+        "jobTitle": "主管助理/售后专员",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "行政助理（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC410449410J40838818701.htm",
         "capturedAt": "2026-04-06",
-        "summary": "招募助理一、工作内容:1.网站维护，线上线下招募等工作。2.公司提供老客户名单，邀约客户领取公司提供的各类礼品(无业绩考核)。3.无业绩要求。2.工作时间:1.早8:30-晚3:30(特殊情况可以调整)2.按照国家法定节假日休息!周末双休。3.任职要求:年龄:25-45周岁，学历"
+        "evidenceQuote": "",
+        "summary": "招募助理一、工作内容:1.网站维护，线上线下招募等工作。2.公司提供老客户名单，邀约客户领取公司提供的各类礼品(无业绩考核)。3.无业绩要求。2.工作时间:1.早8:30-晚3:30(特殊情况可以调整)2.按照国家法定节假日休息!周末双休。3.任职要求:年龄:25-45周岁，学历",
+        "jobTitle": "行政助理",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -175,8 +212,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -184,7 +232,10 @@
         "sourceTitle": "双休-25岁以上菁英储备经理（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC162083010J40484650903.htm",
         "capturedAt": "2026-04-06",
-        "summary": "本岗位招聘人员主要面向有志向往管理层方向发展的人员，有过团队的管理经验的，优秀者也可录用。1、年龄22-55岁2、学历35周岁以下要求大专以上，35周岁及以上的要求高中或同等学历及以上，特别优秀者可放宽3、必须经过市公司面试，能全职从业并正常参加公司会议及培训学习，渴望创业，相貌"
+        "evidenceQuote": "1、年龄22-55岁2、学历35周岁以下要求大专以上，35周岁及以上的要求高中或同等学历及以上，特别",
+        "summary": "本岗位招聘人员主要面向有志向往管理层方向发展的人员，有过团队的管理经验的，优秀者也可录用。1、年龄22-55岁2、学历35周岁以下要求大专以上，35周岁及以上的要求高中或同等学历及以上，特别优秀者可放宽3、必须经过市公司面试，能全职从业并正常参加公司会议及培训学习，渴望创业，相貌",
+        "jobTitle": "双休-25岁以上菁英储备经理",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -196,8 +247,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
     "pendingProducts": [],
     "evidence": [
       {
@@ -205,35 +267,20 @@
         "sourceTitle": "增员助理专员【纯文职+35岁以下】（智联招聘）",
         "sourceUrl": "http://www.zhaopin.com/jobdetail/CC543102420J40784614514.htm",
         "capturedAt": "2026-04-06",
-        "summary": "我们正在寻找一位专业的招聘专员/助理，负责全面支持公司的招聘活动，确保招聘流程的顺畅进行。工作内容：包括发布招聘信息、筛选简历、组织面试、跟进候选人等。岗位要求：1. 大专及以上学历，25-35岁，人力资源管理等相关专业优先；2. 1-2年招聘相关工作经验，优秀应届生亦可；3. "
+        "evidenceQuote": "",
+        "summary": "我们正在寻找一位专业的招聘专员/助理，负责全面支持公司的招聘活动，确保招聘流程的顺畅进行。工作内容：包括发布招聘信息、筛选简历、组织面试、跟进候选人等。岗位要求：1. 大专及以上学历，25-35岁，人力资源管理等相关专业优先；2. 1-2年招聘相关工作经验，优秀应届生亦可；3. ",
+        "jobTitle": "增员助理专员【纯文职+35岁以下】",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "增员助理专员【纯文职+35岁以下】（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC543102420J40784614514.htm",
         "capturedAt": "2026-04-06",
-        "summary": "我们正在寻找一位专业的招聘专员/助理，负责全面支持公司的招聘活动，确保招聘流程的顺畅进行。工作内容：包括发布招聘信息、筛选简历、组织面试、跟进候选人等。岗位要求：1. 大专及以上学历，25-35岁，人力资源管理等相关专业优先；2. 1-2年招聘相关工作经验，优秀应届生亦可；3. "
-      }
-    ]
-  },
-  {
-    "id": "c-01abd2df332d",
-    "name": "中国人寿大厦",
-    "industry": "待补充",
-    "riskLevel": "medium",
-    "verificationStatus": "pending",
-    "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
-    "summary": "来自数据库导出，需持续补充多源证据。",
-    "products": [],
-    "pendingProducts": [],
-    "evidence": [
-      {
-        "sourceType": "jobsite",
-        "sourceTitle": "hr助理招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/03a7a0175fefcde603V62Nq0EldZ.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
+        "evidenceQuote": "增员助理专员【纯文职+35岁以下】",
+        "summary": "我们正在寻找一位专业的招聘专员/助理，负责全面支持公司的招聘活动，确保招聘流程的顺畅进行。工作内容：包括发布招聘信息、筛选简历、组织面试、跟进候选人等。岗位要求：1. 大专及以上学历，25-35岁，人力资源管理等相关专业优先；2. 1-2年招聘相关工作经验，优秀应届生亦可；3. ",
+        "jobTitle": "增员助理专员【纯文职+35岁以下】",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -241,12 +288,23 @@
     "id": "c-9ed5b808624b",
     "name": "中国大地财产保险股份有限公司",
     "industry": "待补充",
-    "riskLevel": "medium",
+    "riskLevel": "high",
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "clear",
+    "ageRiskConfidence": "high",
+    "conclusionReason": "发现 4 条证据包含“35岁以下/35周岁以下”，达到明确风险阈值。",
+    "evidenceLevel": "L3",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 4,
     "pendingProducts": [],
     "evidence": [
       {
@@ -254,28 +312,75 @@
         "sourceTitle": "国企办公室线上网络营销+五险+带薪培训+八小时（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC145756070J40892129012.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【岗位职责】1、公司平台处理汽车用户关于车险相关问题，为客户提供车险续期方案。2、纯办公室工作，办公室环境优美冬暖夏凉，不需要出差，跑业务、无任务等。3、公司提供带薪培训，没有工作经验也可迅速入门。【薪资待遇】1、全面优厚的薪资福利：底薪+绩效+津贴+奖金+补助，稳定5000-8"
+        "evidenceQuote": "",
+        "summary": "【岗位职责】1、公司平台处理汽车用户关于车险相关问题，为客户提供车险续期方案。2、纯办公室工作，办公室环境优美冬暖夏凉，不需要出差，跑业务、无任务等。3、公司提供带薪培训，没有工作经验也可迅速入门。【薪资待遇】1、全面优厚的薪资福利：底薪+绩效+津贴+奖金+补助，稳定5000-8",
+        "jobTitle": "国企办公室线上网络营销+五险+带薪培训+八小时",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "客服专员/五险一金/带薪培训/法定假期（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC145756070J40892126712.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【岗位职责】1、公司平台处理汽车用户关于车险相关问题，为客户提供车险续期方案。2、纯办公室工作，办公室环境优美冬暖夏凉，不需要出差，跑业务、无任务等。3、公司提供带薪培训，没有工作经验也可迅速入门。【薪资待遇】1、全面优厚的薪资福利：底薪+绩效+津贴+奖金+补助，稳定5000-8"
+        "evidenceQuote": "",
+        "summary": "【岗位职责】1、公司平台处理汽车用户关于车险相关问题，为客户提供车险续期方案。2、纯办公室工作，办公室环境优美冬暖夏凉，不需要出差，跑业务、无任务等。3、公司提供带薪培训，没有工作经验也可迅速入门。【薪资待遇】1、全面优厚的薪资福利：底薪+绩效+津贴+奖金+补助，稳定5000-8",
+        "jobTitle": "客服专员/五险一金/带薪培训/法定假期",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "行政班市场专员/五险一金/带薪培训/法定假期（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC145756070J40892128412.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【岗位职责】1、公司平台处理汽车用户关于车险相关问题，为客户提供车险续期方案。2、纯办公室工作，办公室环境优美冬暖夏凉，不需要出差，跑业务、无任务等。3、公司提供带薪培训，没有工作经验也可迅速入门。【薪资待遇】1、全面优厚的薪资福利：底薪+绩效+津贴+奖金+补助，稳定5000-8"
+        "evidenceQuote": "",
+        "summary": "【岗位职责】1、公司平台处理汽车用户关于车险相关问题，为客户提供车险续期方案。2、纯办公室工作，办公室环境优美冬暖夏凉，不需要出差，跑业务、无任务等。3、公司提供带薪培训，没有工作经验也可迅速入门。【薪资待遇】1、全面优厚的薪资福利：底薪+绩效+津贴+奖金+补助，稳定5000-8",
+        "jobTitle": "行政班市场专员/五险一金/带薪培训/法定假期",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "行政班市场专员/五险一金/带薪培训/法定假期（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC145756070J40892128712.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【岗位职责】1、公司平台处理汽车用户关于车险相关问题，为客户提供车险续期方案。2、纯办公室工作，办公室环境优美冬暖夏凉，不需要出差，跑业务、无任务等。3、公司提供带薪培训，没有工作经验也可迅速入门。【薪资待遇】1、全面优厚的薪资福利：底薪+绩效+津贴+奖金+补助，稳定5000-8"
+        "evidenceQuote": "",
+        "summary": "【岗位职责】1、公司平台处理汽车用户关于车险相关问题，为客户提供车险续期方案。2、纯办公室工作，办公室环境优美冬暖夏凉，不需要出差，跑业务、无任务等。3、公司提供带薪培训，没有工作经验也可迅速入门。【薪资待遇】1、全面优厚的薪资福利：底薪+绩效+津贴+奖金+补助，稳定5000-8",
+        "jobTitle": "行政班市场专员/五险一金/带薪培训/法定假期",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-bd4728120303",
+    "name": "中国太平洋人寿保险股份有限公司",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "训练管理岗 (MJ008815)（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC226851110J40874271203.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "1.年龄：35岁以下",
+        "summary": "一、工作职责1.负责落实公司银保条线培训工作部署，协助制定辖内银保年度培训计划;2.协助推进训练师队伍建设，包括选拔、评级、能力建设、专项授权等工作；3.组织并完成线上线下各类培训，追踪反馈培训效果；4.负责培训材料的制作和更新，培训课程及管理的持续优化，整理补充优秀案例；5.负",
+        "jobTitle": "训练管理岗 (MJ008815)",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -283,12 +388,31 @@
     "id": "c-55e7507c12d0",
     "name": "中国平安人寿保险股份有限公司2",
     "industry": "待补充",
-    "riskLevel": "medium",
+    "riskLevel": "high",
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
-    "products": [],
+    "products": [
+      {
+        "name": "寿险",
+        "category": "",
+        "url": "",
+        "confidence": "verified",
+        "status": "approved"
+      }
+    ],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "clear",
+    "ageRiskConfidence": "high",
+    "conclusionReason": "发现 32 条证据包含“35岁以下/35周岁以下”，达到明确风险阈值。",
+    "evidenceLevel": "L3",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 32,
     "pendingProducts": [],
     "evidence": [
       {
@@ -296,224 +420,445 @@
         "sourceTitle": "西青-五险一金 双休 优质客户资源下发（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40848008503.htm",
         "capturedAt": "2026-04-06",
-        "summary": "双休，五险一金，收入稳增社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖500"
+        "evidenceQuote": "",
+        "summary": "双休，五险一金，收入稳增社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖500",
+        "jobTitle": "西青-五险一金 双休 优质客户资源下发",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "南阳-五险一金 双休 优质客户资源下发 不加班（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40800580703.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不内卷收入稳增社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发200"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不内卷收入稳增社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发200",
+        "jobTitle": "南阳-五险一金 双休 优质客户资源下发 不加班",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "宝山-五险一金 双休 优质集团客户下发（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40846983203.htm",
         "capturedAt": "2026-04-06",
-        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000"
+        "evidenceQuote": "",
+        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000",
+        "jobTitle": "宝山-五险一金 双休 优质集团客户下发",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "开封-五险一金 双休 优质客户资源下发（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40845824303.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20",
+        "jobTitle": "开封-五险一金 双休 优质客户资源下发",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "静海-双休 五险一金 优质客户资源下发 无责底薪收入稳增（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40798131703.htm",
         "capturedAt": "2026-04-06",
-        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000"
+        "evidenceQuote": "",
+        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000",
+        "jobTitle": "静海-双休 五险一金 优质客户资源下发 无责底薪收入稳增",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "三水-五险一金 双休 优质客户下发（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40853200403.htm",
         "capturedAt": "2026-04-06",
-        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000"
+        "evidenceQuote": "",
+        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000",
+        "jobTitle": "三水-五险一金 双休 优质客户下发",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "胶州-五险一金\\双休\\优质客户资源下发\\福利好（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40875451103.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20",
+        "jobTitle": "胶州-五险一金\\双休\\优质客户资源下发\\福利好",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "重庆-双休 五险一金 客户资源下发 不加班（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40780120503.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不加班的好工作！ 社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。 一、福利待遇:工资构成: 无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不加班的好工作！ 社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。 一、福利待遇:工资构成: 无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000",
+        "jobTitle": "重庆-双休 五险一金 客户资源下发 不加班",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "闵行-五险一金\\双休\\福利好\\不加班\\晋升快（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40883218403.htm",
         "capturedAt": "2026-04-06",
-        "summary": "晋升空间大，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提"
+        "evidenceQuote": "",
+        "summary": "晋升空间大，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提",
+        "jobTitle": "闵行-五险一金\\双休\\福利好\\不加班\\晋升快",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "文昌-五险一金\\双休 \\优质客户资源下发\\收入有保障（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40885936003.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20",
+        "jobTitle": "文昌-五险一金\\双休 \\优质客户资源下发\\收入有保障",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "娄底-五险一金 双休 客户资源下发 社区网格编制招满即停（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40791906603.htm",
         "capturedAt": "2026-04-06",
-        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000"
+        "evidenceQuote": "",
+        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000",
+        "jobTitle": "娄底-五险一金 双休 客户资源下发 社区网格编制招满即停",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "常德-双休 五险一金 优质客户资源下发 收入稳增（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40805882403.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，编制招满即停社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，编制招满即停社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000",
+        "jobTitle": "常德-双休 五险一金 优质客户资源下发 收入稳增",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "大港-五险一金 双休 客户资源下发（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40850179803.htm",
         "capturedAt": "2026-04-06",
-        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000"
+        "evidenceQuote": "",
+        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000",
+        "jobTitle": "大港-五险一金 双休 客户资源下发",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "马鞍山-五险一金 双休 优质客户资源下发，收入稳增（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40801904303.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，收入稳增社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，收入稳增社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提",
+        "jobTitle": "马鞍山-五险一金 双休 优质客户资源下发，收入稳增",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "深圳南山-双休\\五险一金\\客户资源下发\\福利好（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40871486403.htm",
         "capturedAt": "2026-04-06",
-        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000"
+        "evidenceQuote": "",
+        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000",
+        "jobTitle": "深圳南山-双休\\五险一金\\客户资源下发\\福利好",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "川沙-五险一金 双休 优质客户资源下发 不加班（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40855730503.htm",
         "capturedAt": "2026-04-06",
-        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000"
+        "evidenceQuote": "",
+        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000",
+        "jobTitle": "川沙-五险一金 双休 优质客户资源下发 不加班",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "北辰-五险一金 双休 优质客户下发 不加班（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40846670703.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20",
+        "jobTitle": "北辰-五险一金 双休 优质客户下发 不加班",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "永州-五险一金 双休 优质客户资源下发（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40850186703.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不加班社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不加班社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖",
+        "jobTitle": "永州-五险一金 双休 优质客户资源下发",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "南岸-五险一金\\双休\\优质客户资源下发\\不加班（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40884179303.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20",
+        "jobTitle": "南岸-五险一金\\双休\\优质客户资源下发\\不加班",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "株洲-8K-16K 五险一金 双休 客户资源下发 编制招满即停（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40793025103.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20",
+        "jobTitle": "株洲-8K-16K 五险一金 双休 客户资源下发 编制招满即停",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "禅城-五险一金 双休 优质客户资源下发（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40867628103.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不加班社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不加班社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖",
+        "jobTitle": "禅城-五险一金 双休 优质客户资源下发",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "武清-五险一金 双休 需求客户资源下发（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40850397903.htm",
         "capturedAt": "2026-04-06",
-        "summary": "双休，五险一金 不加班~社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖500"
+        "evidenceQuote": "",
+        "summary": "双休，五险一金 不加班~社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖500",
+        "jobTitle": "武清-五险一金 双休 需求客户资源下发",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "巴南-五险一金\\ 双休\\集团优质客户下发\\ 福利好（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40854520103.htm",
         "capturedAt": "2026-04-06",
-        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000"
+        "evidenceQuote": "",
+        "summary": "不电销 不地推，不加班，收入有保障！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000",
+        "jobTitle": "巴南-五险一金\\ 双休\\集团优质客户下发\\ 福利好",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "万州-五险一金\\ 双休 \\优质客户资源下发（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40852385703.htm",
         "capturedAt": "2026-04-06",
-        "summary": "双休，五险一金，不地推，不加班社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖"
+        "evidenceQuote": "",
+        "summary": "双休，五险一金，不地推，不加班社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖",
+        "jobTitle": "万州-五险一金\\ 双休 \\优质客户资源下发",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "海淀-五险一金\\双休\\不加班\\优质客户资源下发（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40864998403.htm",
         "capturedAt": "2026-04-06",
-        "summary": "双休，五险一金，优质客户资源下发！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，"
+        "evidenceQuote": "",
+        "summary": "双休，五险一金，优质客户资源下发！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，",
+        "jobTitle": "海淀-五险一金\\双休\\不加班\\优质客户资源下发",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "江阴-双休 \\五险一金 \\客户资源下发\\不加班\\福利好（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40873677903.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不内卷，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖100"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不内卷，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖100",
+        "jobTitle": "江阴-双休 \\五险一金 \\客户资源下发\\不加班\\福利好",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "洛阳-五险一金 双休 优质客户资源下发 日常不加班（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40802203903.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖5000"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖5000",
+        "jobTitle": "洛阳-五险一金 双休 优质客户资源下发 日常不加班",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "杨浦-五险一金\\双休\\优质客户资源下发\\福利好（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40879135703.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不内卷收入稳增社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发200"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不内卷收入稳增社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发200",
+        "jobTitle": "杨浦-五险一金\\双休\\优质客户资源下发\\福利好",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "徐州-五险一金 双休 客户资源下发 收入稳定提升快（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40779620003.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不加班社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不加班社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖",
+        "jobTitle": "徐州-五险一金 双休 客户资源下发 收入稳定提升快",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "金水区-五险一金 双休 客户资源下发 收入稳增 不加班（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40804467803.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不加班社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不加班社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发2000，提奖",
+        "jobTitle": "金水区-五险一金 双休 客户资源下发 收入稳增 不加班",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "长沙-五险一金 双休 客户资源下发 收入稳增（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40780119003.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20",
+        "jobTitle": "长沙-五险一金 双休 客户资源下发 收入稳增",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "闵行-五险一金 双休 优质客户资源下发 不加班（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487619940J40861233803.htm",
         "capturedAt": "2026-04-06",
-        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20"
+        "evidenceQuote": "",
+        "summary": "带编制，双休，五险一金，不加班的好工作！社区金融服务：朝九晚六、周末双休、工作简单轻松，节假日正常休息、福利待遇好，主要做老客户的维护和二次开发，综合金融业务均可做，收入来源广，晋升空间大。一、福利待遇:工资构成:无责底薪+业务提奖+新人津贴+激励方案。双佣金：提奖1000发20",
+        "jobTitle": "闵行-五险一金 双休 优质客户资源下发 不加班",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-569ee8e48d24",
+    "name": "中國光大綠色環保有限公司",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "生产中控dcs操作（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CCL1426319120J40924979215.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "，化工类，电厂集控运行、能源与动力、电气自动化等相关专业年龄35岁以下1.在生产运行部领导下，协助值长做好本值管理工作，必要时代替",
+        "summary": "环境类，化工类，电厂集控运行、能源与动力、电气自动化等相关专业年龄35岁以下1.在生产运行部领导下，协助值长做好本值管理工作，必要时代替值长全面负责本值工作，确保生产安全；2.协助值长监督、检查、考核本值的人员劳动纪律，制止和纠正违章作业，禁止无关人员进入生产现场，保护好事故现场",
+        "jobTitle": "生产中控dcs操作",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-036c811ef451",
+    "name": "中粮可口可乐",
+    "industry": "待补充",
+    "riskLevel": "high",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "clear",
+    "ageRiskConfidence": "high",
+    "conclusionReason": "发现 3 条证据包含“35岁以下/35周岁以下”，达到明确风险阈值。",
+    "evidenceLevel": "L3",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 3,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "销售代表+五险一金（桃江）（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC197685720J40842546505.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职资格：1、高中及以上学历，35岁以下有相关工作经验者可适当放宽，专业不限",
+        "summary": "工作地点：桃江工作内容：1、负责公司产品的销售及推广；2、根据市场营销计划，完成部门销售指标；3、开拓新市场，发展新客户，增加产品销售范围；4、负责辖区市场信息的收集及竞争对手的分析；5、负责销售区域内销售活动的策划和执行，完成销售任务；6、管理维护客户关系以及客户间的长期战略合",
+        "jobTitle": "销售代表+五险一金（桃江）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "销售代表+五险一金（张家界）（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC197685720J40842547905.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职资格：1、大专及以上学历，35岁以下有相关工作经验者可适当放宽，专业不限",
+        "summary": "工作地点：张家界工作内容：1、负责公司产品的销售及推广；2、根据市场营销计划，完成部门销售指标；3、开拓新市场，发展新客户，增加产品销售范围；4、负责辖区市场信息的收集及竞争对手的分析；5、负责销售区域内销售活动的策划和执行，完成销售任务；6、管理维护客户关系以及客户间的长期战略",
+        "jobTitle": "销售代表+五险一金（张家界）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "销售代表-株洲（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC197685720J40830392305.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职资格： 1、大专及以上学历，35岁以下 有相关工作经验者可适当放宽，专业不限",
+        "summary": "工作地点：株洲醴陵 工作内容： 1、负责公司产品的销售及推广； 2、根据市场营销计划，完成部门销售指标； 3、开拓新市场，发展新客户，增加产品销售范围； 4、负责辖区市场信息的收集及竞争对手的分析； 5、负责销售区域内销售活动的策划和执行，完成销售任务； 6、管理维护客户关系以及",
+        "jobTitle": "销售代表-株洲",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-56460a8c4f4b",
+    "name": "中粮集团",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "中粮酒业-名庄荟事业部啤酒品类销售岗（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC120884370J40990476404.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "11、可以适当饮酒，酒精过敏者不考虑，35岁以下，特别优秀的可以适当放宽 ，大专或以上学历",
+        "summary": "1、与大客户进行沟通、销售、挖掘客户需求，找寻意向销售公司产品。 2、开拓市场、制定营销方案、洽谈销售合同、为客户提供商务服务。 3、做好大客户资源的收集、整理、归档工作，实现大客户信息资源的开发利用。 4、负责大客户的业务推广、业务宣传等工作。 5、在巩固现有大客户的前提下，对",
+        "jobTitle": "中粮酒业-名庄荟事业部啤酒品类销售岗",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -524,17 +869,76 @@
     "riskLevel": "medium",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
     "pendingProducts": [],
     "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "河南城市经理（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC120648220J40920950108.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "2、大专及以上学历，年龄35岁以下",
+        "summary": "河南省招聘区域：南阳、商丘、安阳岗位职责：1、负责品牌家装管道市场推广，作为辖区第一责任人，全面负责区域内代理商的开发、扶持及渠道网点的布局；2、统筹区域内产品销售工作，对销售目标、产品优化迭代、价格体系管控、核心工长维护、核心暖工培训赋能等工作跟进落地；3、协助代理商组建队伍，",
+        "jobTitle": "河南城市经理",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
       {
         "sourceType": "jobsite",
         "sourceTitle": "食堂服务员（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC120648220J40925616208.htm",
         "capturedAt": "2026-04-06",
-        "summary": "切配菜 打饭会做简单饼子包子等主食最好每天上班10小时 午休2小时包吃住 交五险 月休四天工资到手4000—4500上班时间7点30-19点30（午休2小时）要求最好能住宿"
+        "evidenceQuote": "",
+        "summary": "切配菜 打饭会做简单饼子包子等主食最好每天上班10小时 午休2小时包吃住 交五险 月休四天工资到手4000—4500上班时间7点30-19点30（午休2小时）要求最好能住宿",
+        "jobTitle": "食堂服务员",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-82b8b638e204",
+    "name": "中通快递",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "运营文员（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC542783320J40906970415.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "4.年龄35岁以下",
+        "summary": "岗位要求：1.熟悉物流运营，有相关工作经验者优先；2.需要较强的数据分析能力及数字敏感度，能够熟练运用办公软件；3.责任心强，积极主动，具备良好的沟通能力；4.年龄35岁以下。岗位职责：1.负责与合作公司业务衔接；2.负责撰写编辑相关文件、报表等；3.监测分析整合公司运营数据；4",
+        "jobTitle": "运营文员",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -546,8 +950,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
     "pendingProducts": [],
     "evidence": [
       {
@@ -555,14 +970,55 @@
         "sourceTitle": "异常处理员（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC192921310J40687022009.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位内容：1. 根据客户需求，处理并跟踪订单，及时更新物流信息，保证订单准确完整2. 负责货物的异常处理，联动上下游处理异常，保证货物送到客户手中。3. 保持与客户的良好沟通，协调解决订单相关问题4. 按要求收集统计订单数据，编写汇报文档5. 完成领导交办的其他任务任职要求：1."
+        "evidenceQuote": "",
+        "summary": "岗位内容：1. 根据客户需求，处理并跟踪订单，及时更新物流信息，保证订单准确完整2. 负责货物的异常处理，联动上下游处理异常，保证货物送到客户手中。3. 保持与客户的良好沟通，协调解决订单相关问题4. 按要求收集统计订单数据，编写汇报文档5. 完成领导交办的其他任务任职要求：1.",
+        "jobTitle": "异常处理员",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "烟台京东电器城旗店苹果销售专员--京东直签--五险一金（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC192921310J40846961509.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责：1、商品市调：根据柜组统一安排，进行顾客需求、竞争对手货源、价格、出样、促销信息等调查，为柜组提供信息支持；2、现场销售：接参与所在柜组商品的现场销售工作；3、商品管理：协助销售组长进行商品管理，掌握商品价格、库存、自有品牌、附件、PSP、主推及商品滞销的数据；协助组长"
+        "evidenceQuote": "",
+        "summary": "岗位职责：1、商品市调：根据柜组统一安排，进行顾客需求、竞争对手货源、价格、出样、促销信息等调查，为柜组提供信息支持；2、现场销售：接参与所在柜组商品的现场销售工作；3、商品管理：协助销售组长进行商品管理，掌握商品价格、库存、自有品牌、附件、PSP、主推及商品滞销的数据；协助组长",
+        "jobTitle": "烟台京东电器城旗店苹果销售专员--京东直签--五险一金",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-33ca93e9cde5",
+    "name": "京北方",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "后台服务岗/无销售性质/五险一金（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC315847110J40833162207.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "题进行记录，给予解答处理（前期有带薪培训学习）任职要求：1、35岁以下，大专学历以上学历，学信网可查",
+        "summary": "岗位职责：负责接听车险客户来电，对于客户的车险报案问题进行记录，给予解答处理（前期有带薪培训学习）任职要求：1、35岁以下，大专学历以上学历，学信网可查；2、具有服务意识和抗压能力。 工作地址： 宿迁市湖滨新区水杉大道1号宿迁保险小镇3幢A16号楼6楼",
+        "jobTitle": "后台服务岗/无销售性质/五险一金",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -570,12 +1026,23 @@
     "id": "c-f94dd5c959e6",
     "name": "作业帮",
     "industry": "待补充",
-    "riskLevel": "medium",
+    "riskLevel": "high",
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "clear",
+    "ageRiskConfidence": "high",
+    "conclusionReason": "发现 3 条证据包含“35岁以下/35周岁以下”，达到明确风险阈值。",
+    "evidenceLevel": "L3",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 3,
     "pendingProducts": [],
     "evidence": [
       {
@@ -583,21 +1050,65 @@
         "sourceTitle": "小学数学长期班辅导老师 均薪7k（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC287198080J40803246814.htm",
         "capturedAt": "2026-04-06",
-        "summary": "月休8天 双休双休双休！！距离远不用担心，下班免费打车!!【工作内容】主讲负责授课，我们只需带学生预习或者做课后习题，内容很简单，有题库、课件和解析，，无需记其他的知识点，全是小学的基础知识点【薪资待遇】无责底薪4000(包含500餐补)+绩效3000+提成，前两个月还有保底一千"
+        "evidenceQuote": "",
+        "summary": "月休8天 双休双休双休！！距离远不用担心，下班免费打车!!【工作内容】主讲负责授课，我们只需带学生预习或者做课后习题，内容很简单，有题库、课件和解析，，无需记其他的知识点，全是小学的基础知识点【薪资待遇】无责底薪4000(包含500餐补)+绩效3000+提成，前两个月还有保底一千",
+        "jobTitle": "小学数学长期班辅导老师 均薪7k",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "接受专科+无责5500+助教（七险一金）（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC287198080J40842066514.htm",
         "capturedAt": "2026-04-06",
-        "summary": "一轮面试！！当天出结果！！带班后50%以上的薪资在12000左右，上不封顶!!!前两个月保底薪资5500不需要教师资格证!!!入职缴纳七险一金!不需要自己找客户，公司有稳定客户群体，入职配备电脑，手机平时工作就是前期辅助主讲老师，上课，维护课堂纪律等。等课程结束的时候询问他们是否"
+        "evidenceQuote": "",
+        "summary": "一轮面试！！当天出结果！！带班后50%以上的薪资在12000左右，上不封顶!!!前两个月保底薪资5500不需要教师资格证!!!入职缴纳七险一金!不需要自己找客户，公司有稳定客户群体，入职配备电脑，手机平时工作就是前期辅助主讲老师，上课，维护课堂纪律等。等课程结束的时候询问他们是否",
+        "jobTitle": "接受专科+无责5500+助教（七险一金）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "下午上班！助教！入职缴纳七险一金（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC287198080J40841777614.htm",
         "capturedAt": "2026-04-06",
-        "summary": "一轮面试！！当天出结果！！带班后50%以上的薪资在12000左右，上不封顶!!!前两个月保底薪资5500不需要教师资格证!!!入职缴纳七险一金!不需要自己找客户，公司有稳定客户群体，入职配备电脑，手机平时工作就是前期辅助主讲老师，上课，维护课堂纪律等。等课程结束的时候询问他们是否"
+        "evidenceQuote": "",
+        "summary": "一轮面试！！当天出结果！！带班后50%以上的薪资在12000左右，上不封顶!!!前两个月保底薪资5500不需要教师资格证!!!入职缴纳七险一金!不需要自己找客户，公司有稳定客户群体，入职配备电脑，手机平时工作就是前期辅助主讲老师，上课，维护课堂纪律等。等课程结束的时候询问他们是否",
+        "jobTitle": "下午上班！助教！入职缴纳七险一金",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-57c92071911f",
+    "name": "保利物业服务股份有限公司",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "物业形象岗（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC483926780J40757115706.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职要求：1，年龄35岁以下，身高175以上",
+        "summary": "岗位职责：[安防形象岗]1，负责物业区域的安全巡逻和监控；2，及时响应和处理突发安全事件；3，维护物业安全秩序，确保居民和财产安全；4，完成领导交办的其他工作事宜。任职要求：1，年龄35岁以下，身高175以上；2，具备良好的安全意识和责任心，有中高端项目经验；3，具有良好的沟通能",
+        "jobTitle": "物业形象岗",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -605,27 +1116,54 @@
     "id": "c-5c8bc0fefde8",
     "name": "兄弟连供应链管理(天津)有限公司",
     "industry": "待补充",
-    "riskLevel": "medium",
+    "riskLevel": "high",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "clear",
+    "ageRiskConfidence": "high",
+    "conclusionReason": "发现 3 条证据包含“35岁以下/35周岁以下”，达到明确风险阈值。",
+    "evidenceLevel": "L3",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 3,
     "pendingProducts": [],
     "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "急聘折弯工 月入8000（五险一金）（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CCL1234226900J40826676002.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "吃住，五险）武汉小鹏汽车厂招总装 总装 必须接受白夜双班倒，35岁以下， 薪资待遇：5天8小时制，22天底薪4500-5000元/",
+        "summary": "折弯工1人----------------------------------------------------------------------------------------------------------- （有吃住，五险）武汉小鹏汽车厂招总装 总装 必须接受白",
+        "jobTitle": "急聘折弯工 月入8000（五险一金）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
       {
         "sourceType": "jobsite",
         "sourceTitle": "急聘叉车工-月入9000（包住）（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1234226900J40923831602.htm",
         "capturedAt": "2026-04-06",
-        "summary": "（有吃住，五险）武汉汽车工厂叉车司机招聘岗位：压铸车间叉车司机必须接受白夜双班倒，35岁以下，薪资待遇：5天8小时制，22天底薪4500-5000元/月（等级薪资不一样，面试当场定），8小时外按加班算，等级加班费25-30元/时；月综合薪资：7000-9000元/月【包吃】：包吃"
+        "evidenceQuote": "车工厂叉车司机招聘岗位：压铸车间叉车司机必须接受白夜双班倒，35岁以下，薪资待遇：5天8小时制，22天底薪4500-5000元/月",
+        "summary": "（有吃住，五险）武汉汽车工厂叉车司机招聘岗位：压铸车间叉车司机必须接受白夜双班倒，35岁以下，薪资待遇：5天8小时制，22天底薪4500-5000元/月（等级薪资不一样，面试当场定），8小时外按加班算，等级加班费25-30元/时；月综合薪资：7000-9000元/月【包吃】：包吃",
+        "jobTitle": "急聘叉车工-月入9000（包住）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "急招油漆工-月入9000（包住-双人间）（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1234226900J40881414502.htm",
         "capturedAt": "2026-04-06",
-        "summary": "（有吃住，五险）武汉小鹏汽车厂招涂装工必须接受白夜双班倒，35岁以下，薪资待遇：5天8小时制，22天底薪4500-5000元/月（等级薪资不一样，面试当场定），8小时外按加班算，等级加班费25-30元/时；月综合薪资：7000-9000元/月【包吃】：包吃中餐、晚餐，伙食好（四菜"
+        "evidenceQuote": "（有吃住，五险）武汉小鹏汽车厂招涂装工必须接受白夜双班倒，35岁以下，薪资待遇：5天8小时制，22天底薪4500-5000元/月",
+        "summary": "（有吃住，五险）武汉小鹏汽车厂招涂装工必须接受白夜双班倒，35岁以下，薪资待遇：5天8小时制，22天底薪4500-5000元/月（等级薪资不一样，面试当场定），8小时外按加班算，等级加班费25-30元/时；月综合薪资：7000-9000元/月【包吃】：包吃中餐、晚餐，伙食好（四菜",
+        "jobTitle": "急招油漆工-月入9000（包住-双人间）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -633,34 +1171,154 @@
     "id": "c-e177f0763459",
     "name": "农夫山泉",
     "industry": "待补充",
-    "riskLevel": "medium",
+    "riskLevel": "high",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
-    "products": [],
+    "products": [
+      {
+        "name": "果汁",
+        "category": "",
+        "url": "",
+        "confidence": "verified",
+        "status": "approved"
+      },
+      {
+        "name": "矿泉水",
+        "category": "",
+        "url": "",
+        "confidence": "verified",
+        "status": "approved"
+      }
+    ],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "clear",
+    "ageRiskConfidence": "high",
+    "conclusionReason": "发现 8 条证据包含“35岁以下/35周岁以下”，达到明确风险阈值。",
+    "evidenceLevel": "L3",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 8,
     "pendingProducts": [],
     "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "品保技术员（西藏林芝） (MJ005686)（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC132046460J40840267314.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职要求学历：本科及以上年龄:35岁以下专业：食品、化工、检测等...",
+        "summary": "涉及岗位（微生物技术员、理化技术员、原物料技术员、制程品控员、水处理技术员岗位）1、严格按作业规范进行检验；2、负责相关检测设备的维护和保养；3、检测结果异常时及时反馈领班，并指导生产现场分析改善；4、负责对产品质量检验报告单检测结果检测确认并签字；5、完成本岗位的5S工作；6、",
+        "jobTitle": "品保技术员（西藏林芝） (MJ005686)",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "制造技术员（武夷山工厂） (MJ004491)（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC132046460J40579802614.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "、高配技术员、空压技术员、注塑技术员）【任职要求】1、年龄：35岁以下2、学历：大专及以上3、专业：机械、机电、计算机、化工、食品",
+        "summary": "涉及岗位（吹瓶技术员、灌装技术员、后段技术员、UHT技术员、茶萃取技术员、高配技术员、空压技术员、注塑技术员）【任职要求】1、年龄：35岁以下2、学历：大专及以上3、专业：机械、机电、计算机、化工、食品等相关工科类专业4、知识和能力要求：能够钻研岗位技术，服从分配，遵守劳动纪律，",
+        "jobTitle": "制造技术员（武夷山工厂） (MJ004491)",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "业务代表（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC132046460J40838185614.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "1、年龄：35岁以下",
+        "summary": "位描述一、岗位名称：业务代表（望谟乡镇及望谟餐饮，安龙县城）二、岗位职责：1、服务传统终端零售客户，主动、积极、自律、高效。2、完成公司和经销商下达的销售目标。3、正确并有效执行公司各项市场销售活动，确保政策落实到终端每一个售点。4、根据公司划定的区域，合理规划线路，严格按照计划",
+        "jobTitle": "业务代表",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "品保技术员（西藏林芝） (MJ005686)（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC132046460J40840267414.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职要求学历：本科及以上年龄:35岁以下专业：食品、化工、检测等...",
+        "summary": "涉及岗位（微生物技术员、理化技术员、原物料技术员、制程品控员、水处理技术员岗位）1、严格按作业规范进行检验；2、负责相关检测设备的维护和保养；3、检测结果异常时及时反馈领班，并指导生产现场分析改善；4、负责对产品质量检验报告单检测结果检测确认并签字；5、完成本岗位的5S工作；6、",
+        "jobTitle": "品保技术员（西藏林芝） (MJ005686)",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "品保技术员（西藏林芝） (MJ005686)（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC132046460J40840267514.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职要求学历：本科及以上年龄:35岁以下专业：食品、化工、检测等...",
+        "summary": "涉及岗位（微生物技术员、理化技术员、原物料技术员、制程品控员、水处理技术员岗位）1、严格按作业规范进行检验；2、负责相关检测设备的维护和保养；3、检测结果异常时及时反馈领班，并指导生产现场分析改善；4、负责对产品质量检验报告单检测结果检测确认并签字；5、完成本岗位的5S工作；6、",
+        "jobTitle": "品保技术员（西藏林芝） (MJ005686)",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
       {
         "sourceType": "jobsite",
         "sourceTitle": "行销校招生（2026届）（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC132046460J40853763614.htm",
         "capturedAt": "2026-04-06",
-        "summary": "2026届全日制本科及以上学历专业不限全国范围均有需求0-1.5年扎根一线 贴地飞行；1.5-3年多元发展 独当一面；3-5年专业骨干 管理中坚；突破天花板的无限可能......可通过“养生堂农夫山泉招聘”进行简历投递，会结合您的工作意向地进行就近安排噢"
+        "evidenceQuote": "",
+        "summary": "2026届全日制本科及以上学历专业不限全国范围均有需求0-1.5年扎根一线 贴地飞行；1.5-3年多元发展 独当一面；3-5年专业骨干 管理中坚；突破天花板的无限可能......可通过“养生堂农夫山泉招聘”进行简历投递，会结合您的工作意向地进行就近安排噢",
+        "jobTitle": "行销校招生（2026届）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "业务代表（传统）-涪陵 (MJ003100)（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC132046460J40617188114.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责：1、服务传统终端零售客户，主动、积极、自律、高效。2、完成公司和经销商下达的销售目标。3、正确并有效执行公司各项市场销售活动，确保政策落实到终端每一个售点。4、根据公司划定的区域，合理规划线路，严格按照计划拜访客户。5、及时有效地向客户推广产品，获取订单,提高活跃客户数"
+        "evidenceQuote": "",
+        "summary": "岗位职责：1、服务传统终端零售客户，主动、积极、自律、高效。2、完成公司和经销商下达的销售目标。3、正确并有效执行公司各项市场销售活动，确保政策落实到终端每一个售点。4、根据公司划定的区域，合理规划线路，严格按照计划拜访客户。5、及时有效地向客户推广产品，获取订单,提高活跃客户数",
+        "jobTitle": "业务代表（传统）-涪陵 (MJ003100)",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "业务代表（传统）-永城办江津区 (MJ001808)（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC132046460J40489187714.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责：1、服务传统终端零售客户，主动、积极、自律、高效。2、完成公司和经销商下达的销售目标。3、正确并有效执行公司各项市场销售活动，确保政策落实到终端每一个售点。4、根据公司划定的区域，合理规划线路，严格按照计划拜访客户。5、及时有效地向客户推广产品，获取订单,提高活跃客户数"
+        "evidenceQuote": "",
+        "summary": "岗位职责：1、服务传统终端零售客户，主动、积极、自律、高效。2、完成公司和经销商下达的销售目标。3、正确并有效执行公司各项市场销售活动，确保政策落实到终端每一个售点。4、根据公司划定的区域，合理规划线路，严格按照计划拜访客户。5、及时有效地向客户推广产品，获取订单,提高活跃客户数",
+        "jobTitle": "业务代表（传统）-永城办江津区 (MJ001808)",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-689f84b31b44",
+    "name": "劲草信息技术(深圳)有限公司",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "海上平台机修工（储备机械师）（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC232415210J40930094815.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "）2、适应海上平台工作，身体素质好，吃苦耐劳，无犯罪记录3、35岁以下岗位职...",
+        "summary": "薪资待遇：日薪350元起步，综合年薪10w起步，有高温补贴400-600元/月发6-8个月，优质服务奖。说明：【年终福利】优质服务奖人均约160/天（年底根据当年出勤天数进行核算，陆续发放，按照考核级别及政策执行，具体以实际下发文件为准）任职要求：1、本科以上学历，机械相关专业优",
+        "jobTitle": "海上平台机修工（储备机械师）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -672,8 +1330,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -681,7 +1350,10 @@
         "sourceTitle": "小象超市天津、石家庄、合肥水产仓主管（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC383625320J40827301809.htm",
         "capturedAt": "2026-04-06",
-        "summary": "小象超市为美团自营零售业务，定位为社区居民的“30分钟快送超市”，采用“手机App+线下服务站”的模式，通过在社区设立的集存储、分拣、配送为一体的便民服务站，为社区居民提供生鲜食杂日用及配送服务。目前，小象超市已在北京、上海、深圳、广州、武汉、苏州、杭州等多个城市上线。在美团“零"
+        "evidenceQuote": "",
+        "summary": "小象超市为美团自营零售业务，定位为社区居民的“30分钟快送超市”，采用“手机App+线下服务站”的模式，通过在社区设立的集存储、分拣、配送为一体的便民服务站，为社区居民提供生鲜食杂日用及配送服务。目前，小象超市已在北京、上海、深圳、广州、武汉、苏州、杭州等多个城市上线。在美团“零",
+        "jobTitle": "小象超市天津、石家庄、合肥水产仓主管",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -691,10 +1363,21 @@
     "industry": "待补充",
     "riskLevel": "medium",
     "verificationStatus": "pending",
-    "boycottRecommended": false,
+    "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -702,7 +1385,45 @@
         "sourceTitle": "制作部高级经理招聘",
         "sourceUrl": "https://www.liepin.com/job/1939112543.shtml",
         "capturedAt": "2026-04-06",
-        "summary": "任职要求含年龄上限表述"
+        "evidenceQuote": "35岁以下",
+        "summary": "任职要求含年龄上限表述",
+        "jobTitle": "制作部高级经理",
+        "notes": "来自搜索快照，需人工二次打开页面核验"
+      }
+    ]
+  },
+  {
+    "id": "c-8e7f8e6e4b12",
+    "name": "华峰华锦有限公司",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "高级资金专员（驻外）（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CCL1328867560J40867578203.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职要求 1、35岁以下",
+        "summary": "根据公司的发展规划和筹融资计划，建立和维护公司筹融资渠道，并具体组织和实施筹融资工作，及时为公司战略发展及技术装备引进筹措资金。1、配合公司决策，组织、实施公司各类授信、筹资业务。2、建立和维护公司筹融资渠道，协调公司和金融机构之间的关系，开发新的筹资渠道3、跟踪处理金融机构授信",
+        "jobTitle": "高级资金专员（驻外）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -714,8 +1435,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
     "pendingProducts": [],
     "evidence": [
       {
@@ -723,14 +1455,20 @@
         "sourceTitle": "写字楼中控岗-华润大厦项目（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC358101520J40802377005.htm",
         "capturedAt": "2026-04-06",
-        "summary": "央企写字楼正式编制岗：1. 负责写字楼内消防安全管理、监控工作，按时完成各类消防检查及隐患整改工作；2. 熟悉消防设施及行业规范，熟练掌握监控等系统操作，及时上报可疑情况与突发状况，并做好记录与保存； 3. 夜班值勤期间，负责接听前台转入电话，做好记录、处理与反馈；4. 妥善保存"
+        "evidenceQuote": "3. 年龄35岁以下，身体健康",
+        "summary": "央企写字楼正式编制岗：1. 负责写字楼内消防安全管理、监控工作，按时完成各类消防检查及隐患整改工作；2. 熟悉消防设施及行业规范，熟练掌握监控等系统操作，及时上报可疑情况与突发状况，并做好记录与保存； 3. 夜班值勤期间，负责接听前台转入电话，做好记录、处理与反馈；4. 妥善保存",
+        "jobTitle": "写字楼中控岗-华润大厦项目",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "商场管理员（消防退伍兵）——鞍山万象汇（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC358101520J40160889205.htm",
         "capturedAt": "2026-04-06",
-        "summary": "1、 负责商场内的安全管理、秩序维护等工作。 2、 年龄35岁以下、身高170cm以上，身体健康，无纹身及明显疤痕。 3、 白夜休三班倒，有较强的服务意识，善于沟通，无不良嗜好，消防兵优先录用。 职位福利：节日福利、补充医疗保险、六险一金、年终奖、绩效奖金、交通补助、带薪年假 职"
+        "evidenceQuote": "2、 年龄35岁以下、身高170cm以上，身体健康，无纹身及明显疤痕",
+        "summary": "1、 负责商场内的安全管理、秩序维护等工作。 2、 年龄35岁以下、身高170cm以上，身体健康，无纹身及明显疤痕。 3、 白夜休三班倒，有较强的服务意识，善于沟通，无不良嗜好，消防兵优先录用。 职位福利：节日福利、补充医疗保险、六险一金、年终奖、绩效奖金、交通补助、带薪年假 职",
+        "jobTitle": "商场管理员（消防退伍兵）——鞍山万象汇",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -742,8 +1480,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -751,28 +1500,90 @@
         "sourceTitle": "综合员文员（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC180760820J40928175008.htm",
         "capturedAt": "2026-04-06",
-        "summary": "有行政人事同岗位相关工作经验优先，沟通协调能力强，服务意识态度好"
+        "evidenceQuote": "",
+        "summary": "有行政人事同岗位相关工作经验优先，沟通协调能力强，服务意识态度好",
+        "jobTitle": "综合员文员",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
   {
-    "id": "c-bed5432a4ae5",
-    "name": "天赫传媒",
+    "id": "c-74e94e20e47f",
+    "name": "君乐宝乳业集团股份有限公司",
     "industry": "待补充",
     "riskLevel": "medium",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
     "pendingProducts": [],
     "evidence": [
       {
         "sourceType": "jobsite",
-        "sourceTitle": "抖音团播招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/9a4403d0d7b3479d03B_3d24E1NS.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
+        "sourceTitle": "业务代表（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC178087820J40828690907.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "1. 35岁以下，大专及以上学历，市场营销相关专业",
+        "summary": "岗位职责：1. 负责所辖区域门店掌控，60-80家核心AB类门店，负责2-4县城的业代核心店拜访，销售业绩推动；2. 负责进行通路费用管理执行及结案，推广并使用公司信息化系统，维护销售数据准确性；3. 负责对促销员/司机车销员能力提升，标准化陈列、生动化布建、新鲜度管理、产品培训",
+        "jobTitle": "业务代表",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "【承德】客户经理（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC178087820J40830122707.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "1、 35岁以下，大专及以上学历，市场营销相关专业",
+        "summary": "岗位职责： 1、渠道规划： 承接公司年度合同指标，制定季度渠道规划，做生意回顾；①月度销售计划：业绩、重点品项、机会品项、机会渠道等目标分解；②月度行动计划：策略落地指标达成；③费用申请及结案；销售费用及市场费用进行申请、审核、调控、稽核；2、人员赋能与终端协访：①推动业绩、品项",
+        "jobTitle": "【承德】客户经理",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-a18a5faafbc6",
+    "name": "天津五八白菜有限公司",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "业务内勤人员（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CCL1393581570J40871303513.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "台账 11、风险管理 12、公司待办工作 任职要求 1、年龄35岁以下 2、学历：本科及以上 3、专业：财务专业",
+        "summary": "工作内容 1、车辆改装 2、生产记录 3、零部件采购 4、生产库存管理(零部件、车辆) 5、资料管理 6、仓储对接 7、金融客户对接及合同签订 8、订单追踪 9、客户结算 10、业务台账 11、风险管理 12、公司待办工作 任职要求 1、年龄35岁以下 2、学历：本科及以上 3、",
+        "jobTitle": "业务内勤人员",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -784,8 +1595,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -793,7 +1615,45 @@
         "sourceTitle": "设备工程师（2025/2026年应届生毕业生校招专岗） (MJ046921)（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC271988630J40997028904.htm",
         "capturedAt": "2026-04-06",
-        "summary": "一、岗位职责描述：1.负责制订并定期优化设备现场管理、日常维护、维修及自主保养计划；2.主导分析解决设备宕机问题和提升设备性能，提高产品优率；3.电气工程师能熟练掌握欧姆龙/三菱/西门子PLC（可编程逻辑控制器），以及威纶通上位机软件，能自主编程，熟悉变频器/驱动器的原理及运用；"
+        "evidenceQuote": "",
+        "summary": "一、岗位职责描述：1.负责制订并定期优化设备现场管理、日常维护、维修及自主保养计划；2.主导分析解决设备宕机问题和提升设备性能，提高产品优率；3.电气工程师能熟练掌握欧姆龙/三菱/西门子PLC（可编程逻辑控制器），以及威纶通上位机软件，能自主编程，熟悉变频器/驱动器的原理及运用；",
+        "jobTitle": "设备工程师（2025/2026年应届生毕业生校招专岗） (MJ046921)",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-5490d73d533a",
+    "name": "宁波方太营销有限公司南昌服务部",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "售后服务经理（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC583810720J40939704702.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职资格：1、本科及以上学历，专业不限，35岁以下，有车",
+        "summary": "岗位职责：1、负责组织制定所在办事处的年度服务规划与服务创新策略确保年度目标达成；2、负责辖区内服务商的开发与管理，构建健全的服务网络；3、负责服务团队的各项赋能提升，确保专业能力稳步提升；4、负责辖区内服务诉求管理以及特殊事件的应急处理；5、积极配合销售业务开展相关活动，促进品",
+        "jobTitle": "售后服务经理",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -805,8 +1665,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -814,7 +1685,45 @@
         "sourceTitle": "急招3名小伙伴上班 直签offer（智联招聘）",
         "sourceUrl": "http://www.zhaopin.com/jobdetail/CCL1438894820J40849923714.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【公司直招！】【公司缴纳五险一金】【无销售性质】 【有2人间住宿】一、工作内容： 1、工作内容主要是打字回复小红书网红，官方平台，非小作坊，无需自带设备2、无销售性质，轻松文职，无销售～带薪培训，内部晋升机会大二、岗位要求：1、大专及以上学历，良好的沟通表达能力；2、26届的需要"
+        "evidenceQuote": "",
+        "summary": "【公司直招！】【公司缴纳五险一金】【无销售性质】 【有2人间住宿】一、工作内容： 1、工作内容主要是打字回复小红书网红，官方平台，非小作坊，无需自带设备2、无销售性质，轻松文职，无销售～带薪培训，内部晋升机会大二、岗位要求：1、大专及以上学历，良好的沟通表达能力；2、26届的需要",
+        "jobTitle": "急招3名小伙伴上班 直签offer",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-51931cf4dad3",
+    "name": "安踏体育用品集团有限公司",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "商品主管/经理（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC120471590J40780739307.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "iv> 任职要求： 1、35岁以下，本科及以上学历，2年及以上商品管理工作经验",
+        "summary": "岗位职责： 1、根据终端零售商品管理计划，协助评审会、订货会的各项工作，主品类每季订货会前期的产品结构分析、OTB、季度采购计划及后续的订单评审工作，帮助区域完成合理化订，完成商品评审与订货工作； 2、根据上市策划，协助区域做好各季新品上市计划、销售、促销等环节的工作，达到商品销",
+        "jobTitle": "商品主管/经理",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -824,10 +1733,21 @@
     "industry": "待补充",
     "riskLevel": "medium",
     "verificationStatus": "pending",
-    "boycottRecommended": false,
+    "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -835,7 +1755,90 @@
         "sourceTitle": "材料研发工程师（博士）招聘",
         "sourceUrl": "https://www.liepin.com/job/1955579083.shtml",
         "capturedAt": "2026-04-06",
-        "summary": "任职要求含年龄上限表述"
+        "evidenceQuote": "年龄35岁以下，全日制博士",
+        "summary": "任职要求含年龄上限表述",
+        "jobTitle": "材料研发工程师（博士）",
+        "notes": "来自搜索快照，需人工二次打开页面核验"
+      }
+    ]
+  },
+  {
+    "id": "c-680db925a308",
+    "name": "广东联塑科技实业有限公司",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "业务商务代表-惠州（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC324152220J40922019608.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职要求 1、35岁以下（有 1-2 年建...",
+        "summary": "入职归属：集团总部负责区域：惠州 负责销售过家装PPR管道优先 岗位职责： 1、配合公司业务开展，进行市场拓展与开发活动，开发新客户及维护旧客户； 2、执行并完成公司产品的年度销售计划:； 3、收集有关信息，掌握市场动态、分析销售和市场竞争同行状况，提出改进方案和措施； 4、跟进",
+        "jobTitle": "业务商务代表-惠州",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "全国商务代表（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC324152220J40777756808.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "1、大专及以上学历，35岁以下，防水经验丰富学历可放宽，优秀应届毕业生可放宽条件",
+        "summary": "职位描述 岗位职责： 1、执行公司下达的年度销售任务，做好计划与控制； 2、负责管理客户保持合理的动态库存，制定并执行分销商动销策略。 3、负责市场客户开发与维护，针对目标市场做好长期跟踪与开发； 4、管理市场一级经销商、二级经销商、分销商等的价格体系，杜绝窜货。 5、完成负责区",
+        "jobTitle": "全国商务代表",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-53ff67f85ffd",
+    "name": "康龙化成",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "操作员（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC120543470J40874585915.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职资格:1．高中/中专及以上学历，年龄35岁以下，有化工制药及相关企业工作经验优先",
+        "summary": "职位描述岗位职责:1．负责化学合成车间的反应、萃取、蒸馏、离心、烘干等单元操作；2．按照GMP要求执行操作并填写生产批记录；3．负责生产设备日常清洁维护，计量器具日常校验工作；4．按照5S管理标准，负责所属区域清洁卫生；任职资格:1．高中/中专及以上学历，年龄35岁以下，有化工制",
+        "jobTitle": "操作员",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -843,12 +1846,23 @@
     "id": "c-616e82c76433",
     "name": "待补充",
     "industry": "待补充",
-    "riskLevel": "medium",
+    "riskLevel": "low",
     "verificationStatus": "pending",
-    "boycottRecommended": true,
+    "boycottRecommended": false,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "insufficient",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "当前未发现包含“35岁以下/35周岁以下”的证据，暂按证据不足处理。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 0,
     "pendingProducts": [],
     "evidence": [
       {
@@ -856,70 +1870,145 @@
         "sourceTitle": "35岁以上找不到工作啊（小红书帖子）",
         "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69aa22ba000000002202e603?source=webshare&xhsshare=pc_web&xsec_token=ABgsjowRRGDDgq-nHDd7atQpikM3nabPRxTy3tC3f-LEQ=&xsec_source=pc_share",
         "capturedAt": "2026-04-06",
-        "summary": "小红书帖子内容：那些明里暗里不招35岁以上的公司，能不能勇敢点发个通告，说也不需要35岁以上的客户和消费者 35岁真的是个坎，简历不看，不合适，找人一打听，不需要35岁以上的，猎头也说35以上真的恼火……. 我就想问，你们是活不到35吗？ 有年龄限制就勇敢点写出来啊"
+        "evidenceQuote": "那些明里暗里不招35岁以上的公司，能不能勇敢点发个通告，说也不需要35岁以上的客户和消费者 35岁真的是个坎，简历不看，不合适，找人一打听，不需要35岁以上的，猎头也说35以上真的恼火……. 我就想问，你们是活不到35吗？ 有年龄限制就勇敢点写出来啊",
+        "summary": "小红书帖子内容：那些明里暗里不招35岁以上的公司，能不能勇敢点发个通告，说也不需要35岁以上的客户和消费者 35岁真的是个坎，简历不看，不合适，找人一打听，不需要35岁以上的，猎头也说35以上真的恼火……. 我就想问，你们是活不到35吗？ 有年龄限制就勇敢点写出来啊",
+        "jobTitle": "35岁以上找不到工作啊",
+        "notes": "xhs-post; source=html"
       },
       {
         "sourceType": "xiaohongshu",
         "sourceTitle": "35岁以上找不到工作啊（小红书评论）",
         "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69aa22ba000000002202e603?source=webshare&xhsshare=pc_web&xsec_token=ABgsjowRRGDDgq-nHDd7atQpikM3nabPRxTy3tC3f-LEQ=&xsec_source=pc_share#comment-01",
         "capturedAt": "2026-04-06",
-        "summary": "小红书评论内容：娃哈哈，康师傅都不要35以上的。白象要35以上的。支持白象"
+        "evidenceQuote": "娃哈哈，康师傅都不要35以上的。白象要35以上的。支持白象",
+        "summary": "小红书评论内容：娃哈哈，康师傅都不要35以上的。白象要35以上的。支持白象",
+        "jobTitle": "35岁以上找不到工作啊",
+        "notes": "xhs-comment; source=api; comment_id=69abbfb70000000003013712"
       },
       {
         "sourceType": "xiaohongshu",
         "sourceTitle": "35岁以上找不到工作啊（小红书评论）",
         "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69aa22ba000000002202e603?source=webshare&xhsshare=pc_web&xsec_token=ABgsjowRRGDDgq-nHDd7atQpikM3nabPRxTy3tC3f-LEQ=&xsec_source=pc_share#comment-02",
         "capturedAt": "2026-04-06",
-        "summary": "小红书评论内容：这样根本没用，我出个主意大家踊跃讨论:“人社局每年不定期暗访和检查，如果公司报备交社保的人员年龄没有达到35岁以上人员的用工比例，企业所得税翻倍，没商量”[暗中观察R][暗中观察R]"
+        "evidenceQuote": "这样根本没用，我出个主意大家踊跃讨论:“人社局每年不定期暗访和检查，如果公司报备交社保的人员年龄没有达到35岁以上人员的用工比例，企业所得税翻倍，没商量”[暗中观察R][暗中观察R]",
+        "summary": "小红书评论内容：这样根本没用，我出个主意大家踊跃讨论:“人社局每年不定期暗访和检查，如果公司报备交社保的人员年龄没有达到35岁以上人员的用工比例，企业所得税翻倍，没商量”[暗中观察R][暗中观察R]",
+        "jobTitle": "35岁以上找不到工作啊",
+        "notes": "xhs-comment; source=api; comment_id=69aa9f2b000000000601e251"
       },
       {
         "sourceType": "xiaohongshu",
         "sourceTitle": "35岁以上找不到工作啊（小红书评论）",
         "sourceUrl": "https://www.xiaohongshu.com/discovery/item/69aa22ba000000002202e603?source=webshare&xhsshare=pc_web&xsec_token=ABgsjowRRGDDgq-nHDd7atQpikM3nabPRxTy3tC3f-LEQ=&xsec_source=pc_share#comment-03",
         "capturedAt": "2026-04-06",
-        "summary": "小红书评论内容：生产力过剩，消费力严重不足"
+        "evidenceQuote": "生产力过剩，消费力严重不足",
+        "summary": "小红书评论内容：生产力过剩，消费力严重不足",
+        "jobTitle": "35岁以上找不到工作啊",
+        "notes": "xhs-comment; source=api; comment_id=69aa9b61000000000f02ec20"
       }
     ]
   },
   {
-    "id": "c-4ce8728ee394",
-    "name": "心宝",
+    "id": "c-8d540a0ac9ab",
+    "name": "得力集团",
     "industry": "待补充",
     "riskLevel": "medium",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
         "sourceType": "jobsite",
-        "sourceTitle": "男装模特招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/ed2d6bc80d5716d003Jy3N-4F1tS.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
+        "sourceTitle": "销售代表（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC194887910J40297909107.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "驻地业务招聘1人2、任职条件：中专及以上学历，男女不限，年龄35岁以下，沟通表达能力好，做事认真负责",
+        "summary": "1、职位描述：工作地点延吉，销售岗位，招聘驻地业务招聘1人2、任职条件：中专及以上学历，男女不限，年龄35岁以下，沟通表达能力好，做事认真负责。3、福利待遇：交五险，无责底薪+绩效奖金，超额提成奖金，周休一天，国家法定假日按规定休假，年底13薪4、其他说明：有终端门店销售经验者优",
+        "jobTitle": "销售代表",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
   {
-    "id": "c-3635599855eb",
-    "name": "捷运外卖",
+    "id": "c-d16797048ea5",
+    "name": "恒安集团",
     "industry": "待补充",
     "riskLevel": "medium",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
         "sourceType": "jobsite",
-        "sourceTitle": "9元/单站点直招饿了么骑手招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/87c2646fdb30bca403Z62Ni7FVZQ.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
+        "sourceTitle": "恒安集团直营系统负责人/客户经理-驻马店（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC000405330J40756411905.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "1、有1-2年快消品销售经验，能适应短期出差，大专以上学历，35岁以下，男女不限",
+        "summary": "【岗位职责】1、负责销售区域内销售活动的策划和执行，完成销售任务；2、开拓新市场，发展新客户，增加产品销售范围；3、负责辖区市场信息的收集及竞品的市场与销售分析；4、定期进行市场走访，及时制定和调整营销策略；5、管理维护客户关系以及客户间的长期战略合作计划。【任职要求】1、有1-",
+        "jobTitle": "恒安集团直营系统负责人/客户经理-驻马店",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-ef3e338348f3",
+    "name": "新城控股",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "企划经理（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC292466930J40673874902.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "2、统招本科及以上，35岁以下优先",
+        "summary": "岗位职责：1、负责组织制定部门的工作目标与计划，执行总部下达的相关管理制度及考核制度。2、根据公司的经营目标，制订公司年度、季度、月份的企划推广预算和方案，并对推广效果进行评估。3、负责外部资源的拓展，整合策划大型促销活动及公关活动。4、负责地方商管公司VI系统的实施和维护，并接",
+        "jobTitle": "企划经理",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -931,8 +2020,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -940,7 +2040,10 @@
         "sourceTitle": "现场品控（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC547458120J40896482302.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责：1、监督车间严格按照产品生产工艺及质量标准进行生产,对生产工艺发生偏离 的及时采取纠偏措施,并做好信息反馈。2、监督指导生产过程严格按照质量、食品安全、HACCP、BRC管理体系进行重点验证CCP点的执行情况,并按抽样频率要求对各工序的半成品、成品进行抽查并填写相关记录"
+        "evidenceQuote": "1、35岁以下，食品等专业大专及以上学历",
+        "summary": "岗位职责：1、监督车间严格按照产品生产工艺及质量标准进行生产,对生产工艺发生偏离 的及时采取纠偏措施,并做好信息反馈。2、监督指导生产过程严格按照质量、食品安全、HACCP、BRC管理体系进行重点验证CCP点的执行情况,并按抽样频率要求对各工序的半成品、成品进行抽查并填写相关记录",
+        "jobTitle": "现场品控",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -952,8 +2055,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -961,7 +2075,10 @@
         "sourceTitle": "客户经理（深圳）（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC268496910J40801612016.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责1. 制定并执行客户年度合作规划，负责客户开发、维护与深度运营。2. 负责客户合同谈判，推动多品类上架与覆盖率提升。3. 完成年度销售指标，管控应收账款，确保及时回款。4. 统筹费用预算执行，维护渠道价格体系，管控促销活动落地与价格。5. 处理客户投诉、供应风险及各类突发"
+        "evidenceQuote": "任职要求1. 本科及以上学历，35岁以下2. 3年以上独立运作直供客户经验，有独立合同谈判、费用..",
+        "summary": "岗位职责1. 制定并执行客户年度合作规划，负责客户开发、维护与深度运营。2. 负责客户合同谈判，推动多品类上架与覆盖率提升。3. 完成年度销售指标，管控应收账款，确保及时回款。4. 统筹费用预算执行，维护渠道价格体系，管控促销活动落地与价格。5. 处理客户投诉、供应风险及各类突发",
+        "jobTitle": "客户经理（深圳）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -972,80 +2089,121 @@
     "riskLevel": "medium",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
     "pendingProducts": [],
     "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "诚聘办公室行政文员（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CCL1469949100J40867183813.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职要求：1、35岁以下，统招本科及以上学历，形象好气质佳",
+        "summary": "任职要求：1、35岁以下，统招本科及以上学历，形象好气质佳；2、具备良好的文字撰写能力和语言表达能力；3、熟练使用常用办公软件，专业能力扎实；4、具备较强的进取心、责任心和团队合作精神；5、有2年以上相关工作经验，有管理经验者优先；工作时间：8:00-17:00，单休。福利待遇：",
+        "jobTitle": "诚聘办公室行政文员",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
       {
         "sourceType": "jobsite",
         "sourceTitle": "诚聘法务专员（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1469949100J40869152513.htm",
         "capturedAt": "2026-04-06",
-        "summary": "任职要求：35岁以下，统招本科及以上学历，持有律师资格证，有开庭应诉工作经验。工作内容：负责整理员工工伤材料，完成工伤认定，办理报销、伤残等赔偿手续。负责解决员工投诉和劳资纠纷，起草返岗、解除、调岗通知书等文件负责整理开庭材料，到仲裁、法院进行应诉。"
+        "evidenceQuote": "任职要求：35岁以下，统招本科及以上学历，持有律师资格证，有开庭应诉工作经验",
+        "summary": "任职要求：35岁以下，统招本科及以上学历，持有律师资格证，有开庭应诉工作经验。工作内容：负责整理员工工伤材料，完成工伤认定，办理报销、伤残等赔偿手续。负责解决员工投诉和劳资纠纷，起草返岗、解除、调岗通知书等文件负责整理开庭材料，到仲裁、法院进行应诉。",
+        "jobTitle": "诚聘法务专员",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
   {
-    "id": "c-596ac13f3139",
-    "name": "星船时代",
+    "id": "c-e369f20c47c7",
+    "name": "桂林力源粮油食品集团有限公司",
     "industry": "待补充",
     "riskLevel": "medium",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
         "sourceType": "jobsite",
-        "sourceTitle": "团播主播（提供住宿）接受小白招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/d94949b16ea81d6403F-2d-5FFpS.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
+        "sourceTitle": "肉猪管理员（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC550539120J40816562711.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "人员要求： 1、大专以上学历，年龄35岁以下，畜牧兽医、动物医学相关专业或有相关工作经验者优先考虑",
+        "summary": "人员要求： 1、大专以上学历，年龄35岁以下，畜牧兽医、动物医学相关专业或有相关工作经验者优先考虑； 2、可接受无经验者入职，有师傅带，但要求热爱学习，吃苦耐劳，脚踏实地的，勇于接受挑战； 3、持有C1驾驶证，自备汽车上岗，能接受出差与调动。 工作内容： 下乡指导养殖户进行肉猪的",
+        "jobTitle": "肉猪管理员",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
   {
-    "id": "c-cb6a4a5c5ce4",
-    "name": "杭州北极未来科技",
+    "id": "c-ae4c47efca43",
+    "name": "正大集团",
     "industry": "待补充",
     "riskLevel": "medium",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
     "pendingProducts": [],
     "evidence": [
       {
         "sourceType": "jobsite",
-        "sourceTitle": "DB黛比系团播主播纳新（无责保底可小白）招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/0c74ad01804a88e703x43dy-EVFR.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
-      }
-    ]
-  },
-  {
-    "id": "c-d5a822472d18",
-    "name": "杭州苏江传媒有限公司",
-    "industry": "待补充",
-    "riskLevel": "medium",
-    "verificationStatus": "pending",
-    "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
-    "summary": "来自数据库导出，需持续补充多源证据。",
-    "products": [],
-    "pendingProducts": [],
-    "evidence": [
+        "sourceTitle": "厨师（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC000325800J40180411105.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职要求： 1、 年龄 35 岁以下， 高中及以上学历",
+        "summary": "1、 熟悉酒店、工厂食堂工艺（红案或者白案）技术突出； 2、 负责公司餐厅出餐， 以及提前准备食材， 接待出餐， 保证食品安全； 3、 负责检查厨房内的清洁卫生与安全； 4、 重视成本核算， 降低食品成本， 做到价廉质优。 任职要求： 1、 年龄 35 岁以下， 高中及以上学历；",
+        "jobTitle": "厨师",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
       {
         "sourceType": "jobsite",
-        "sourceTitle": "苏江传媒 娱乐主播-造星计划 小白/包住宿招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/bb50abce6802fff803d529-0E1ZW.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
+        "sourceTitle": "饲料生产储备干部（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC000325800J40852939305.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "2.年龄35岁以下",
+        "summary": "一、岗位职责： 1、熟练掌握饲料厂设备基本原理，根据现场问题快速制定解决方案恢复生产。 2、熟练掌握饲料厂标准化管理，提升饲料厂现场管理水平。 3、熟悉工艺设计，精通设备选型，提升饲料厂智能化水平。 4、饲料加工设备、电气控制、设备管理等技能培训，保障生产稳定运营。 5、新建饲料",
+        "jobTitle": "饲料生产储备干部",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1057,8 +2215,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1066,35 +2235,110 @@
         "sourceTitle": "坐岗手工活小件易上手5000-6500长沙望城比亚迪（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC132962990J40944883702.htm",
         "capturedAt": "2026-04-06",
-        "summary": "福利待遇：1、五险一金：公司按照当地标准为员工缴纳五险一金；员工可自愿选择加入公司医疗基金，享受额外的医疗补助。2、衣食住行：公司为员工提供工衣、劳保用品；提供工作餐早餐4元、中餐晚餐6.5元，另有种类丰富的自选餐可供选择；住宿提供4-6人间免费宿舍（水电平摊），宿舍配备独卫、空"
+        "evidenceQuote": "",
+        "summary": "福利待遇：1、五险一金：公司按照当地标准为员工缴纳五险一金；员工可自愿选择加入公司医疗基金，享受额外的医疗补助。2、衣食住行：公司为员工提供工衣、劳保用品；提供工作餐早餐4元、中餐晚餐6.5元，另有种类丰富的自选餐可供选择；住宿提供4-6人间免费宿舍（水电平摊），宿舍配备独卫、空",
+        "jobTitle": "坐岗手工活小件易上手5000-6500长沙望城比亚迪",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "牵引车司机接受无经验6000-8000合肥比亚迪直招（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC132962990J40942652302.htm",
         "capturedAt": "2026-04-06",
-        "summary": "1、初中及以上学历 2、有相关工作经验优先 三、福利待遇： 1、五险一金：公司按照当地标准为员工缴纳五险一金；员工可自愿选择加入公司医疗基金，享受额外的医疗补助。 2、衣食住行：公司为员工提供工衣、劳保用品；提供工作餐早餐4元、中餐晚餐6.5元，另有种类丰富的自选餐可供选择；住宿"
+        "evidenceQuote": "",
+        "summary": "1、初中及以上学历 2、有相关工作经验优先 三、福利待遇： 1、五险一金：公司按照当地标准为员工缴纳五险一金；员工可自愿选择加入公司医疗基金，享受额外的医疗补助。 2、衣食住行：公司为员工提供工衣、劳保用品；提供工作餐早餐4元、中餐晚餐6.5元，另有种类丰富的自选餐可供选择；住宿",
+        "jobTitle": "牵引车司机接受无经验6000-8000合肥比亚迪直招",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
   {
-    "id": "c-e988962ee5bc",
-    "name": "汉固达网络",
+    "id": "c-dfa54c9c88fd",
+    "name": "民生人寿保险股份有限公司",
     "industry": "待补充",
     "riskLevel": "medium",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
     "pendingProducts": [],
     "evidence": [
       {
         "sourceType": "jobsite",
-        "sourceTitle": "主播招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/288f144fa4e58d6803Z93Nq-FFdX.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
+        "sourceTitle": "贵港中心支公司业务管理岗（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC121019160J40775407211.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "3.一本以上学历，35岁以下",
+        "summary": "岗位职责：1. 全力支持机构业务发展及做好人员管理工作，以达成年度经营目标；2. 协助机构业务管理工作，提升团队专业能力；3. 协助策划、组织各项业务推动活动；4. 对日常经营的关键指标进行追踪、分析、评估等；5. 完成上级领导交办的其他工作。任职要求：1.具有良好的沟通能力、较",
+        "jobTitle": "贵港中心支公司业务管理岗",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "消保专员（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC121019160J40823172711.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "2.有保险行业消保/运营/理赔工作经验至少1年，35岁以下",
+        "summary": "岗位职责：1.负责浙本的消保、投诉工作（向浙本机构负责） 2.协助各机构化解纠纷和投诉； 3.开展消保宣传、培训、审查和自评； 4.负责浙本的消保、投诉工作（向浙本机构负责） 5.完成消保工作的外报沟通； 6.完成交办的其它工作任务。 职位要求： 1.一本及以上学历，金融、经济、",
+        "jobTitle": "消保专员",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-99856f4284db",
+    "name": "江苏恒瑞医药股份有限公司",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "肿瘤免疫-医药信息沟通专家-深圳（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC120989510J40869983313.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "2. 年龄35岁以下，身体健康",
+        "summary": "产品矩阵：艾瑞卡、艾瑞利、艾坦+新上市1701（PD-L1，胃癌领域），新产品丰富。一、工作职责1. 负责免疫肿瘤产品在目标医院内的推广，制定市场计划并确保完成任务；2. 积极主动学习产品知识，正确传递公司产品信息；3. 负责目标市场的开发和目标客户的日常维护，与客户建立良好关系",
+        "jobTitle": "肿瘤免疫-医药信息沟通专家-深圳",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "肿瘤免疫-医药信息沟通专员（宿迁） (MJ017524)（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC120989510J40865383213.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "2. 年龄35岁以下，身体健康",
+        "summary": "产品矩阵：艾泽利、艾维达、艾瑞卡、艾瑞利、艾坦，新产品丰富。 工作职责1. 负责肿瘤产品在目标医院内的推广，制定市场计划并确保完成任务；2. 积极主动学习产品知识，正确传递公司产品信息；3. 负责目标市场的开发和目标客户的日常维护，与客户建立良好关系，保持公司形象；4. 负责目标",
+        "jobTitle": "肿瘤免疫-医药信息沟通专员（宿迁） (MJ017524)",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1106,8 +2350,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1115,7 +2370,10 @@
         "sourceTitle": "文职！！纯作班！（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC214743410J40838204107.htm",
         "capturedAt": "2026-04-06",
-        "summary": "工作内容：纯坐班，无销售，简单易上手（工作环境氛围轻松无压力）带薪培训班要求1、会喘气的;2、有手有脚的;3、认识字的;4、会用智能手机的;以下条件优先录用1、还有很多事想去做又没钱的;2、谈了对象，又没房没车的;3、爱玩游戏，并且有过网恋经历的;4、想实现演唱会自由的以下条件不"
+        "evidenceQuote": "",
+        "summary": "工作内容：纯坐班，无销售，简单易上手（工作环境氛围轻松无压力）带薪培训班要求1、会喘气的;2、有手有脚的;3、认识字的;4、会用智能手机的;以下条件优先录用1、还有很多事想去做又没钱的;2、谈了对象，又没房没车的;3、爱玩游戏，并且有过网恋经历的;4、想实现演唱会自由的以下条件不",
+        "jobTitle": "文职！！纯作班！",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1123,12 +2381,23 @@
     "id": "c-8f55f373fbe8",
     "name": "河南煜新科技有限公司",
     "industry": "待补充",
-    "riskLevel": "medium",
+    "riskLevel": "high",
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "clear",
+    "ageRiskConfidence": "high",
+    "conclusionReason": "发现 3 条证据包含“35岁以下/35周岁以下”，达到明确风险阈值。",
+    "evidenceLevel": "L3",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 3,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1136,21 +2405,30 @@
         "sourceTitle": "工作室文员/合伙人/早九晚五/双休（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487247950J40932197615.htm",
         "capturedAt": "2026-04-06",
-        "summary": "本公司一家专注于即时配送行业整体服务的专业公司，美团、饿了么、京东，肯德基、麦当劳、必胜客、山姆会员超市、奥乐齐超市、大润发超市、叮咚买菜、小象超市、盒马鲜生等。招聘专员/主管工作内容：负责协助公司总部完成人才招聘工作，包括筛选简历、与求职者聊天沟通，讲解薪资待遇，邀约面试，跟踪"
+        "evidenceQuote": "",
+        "summary": "本公司一家专注于即时配送行业整体服务的专业公司，美团、饿了么、京东，肯德基、麦当劳、必胜客、山姆会员超市、奥乐齐超市、大润发超市、叮咚买菜、小象超市、盒马鲜生等。招聘专员/主管工作内容：负责协助公司总部完成人才招聘工作，包括筛选简历、与求职者聊天沟通，讲解薪资待遇，邀约面试，跟踪",
+        "jobTitle": "工作室文员/合伙人/早九晚五/双休",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "行政人事招聘专员/早九晚五/双休/高收入（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487247950J40932203715.htm",
         "capturedAt": "2026-04-06",
-        "summary": "本公司一家专注于即时配送行业整体服务的专业公司，美团、饿了么、京东，肯德基、麦当劳、必胜客、山姆会员超市、奥乐齐超市、大润发超市、叮咚买菜、小象超市、盒马鲜生等。招聘专员/主管工作内容：负责协助公司总部完成人才招聘工作，包括筛选简历、与求职者聊天沟通，讲解薪资待遇，邀约面试，跟踪"
+        "evidenceQuote": "",
+        "summary": "本公司一家专注于即时配送行业整体服务的专业公司，美团、饿了么、京东，肯德基、麦当劳、必胜客、山姆会员超市、奥乐齐超市、大润发超市、叮咚买菜、小象超市、盒马鲜生等。招聘专员/主管工作内容：负责协助公司总部完成人才招聘工作，包括筛选简历、与求职者聊天沟通，讲解薪资待遇，邀约面试，跟踪",
+        "jobTitle": "行政人事招聘专员/早九晚五/双休/高收入",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "企业招聘顾问招聘专员/双休/早九晚五（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1487247950J40932199815.htm",
         "capturedAt": "2026-04-06",
-        "summary": "本公司一家专注于即时配送行业整体服务的专业公司，美团、饿了么、京东，肯德基、麦当劳、必胜客、山姆会员超市、奥乐齐超市、大润发超市、叮咚买菜、小象超市、盒马鲜生等。招聘专员/主管工作内容：负责协助公司总部完成人才招聘工作，包括筛选简历、与求职者聊天沟通，讲解薪资待遇，邀约面试，跟踪"
+        "evidenceQuote": "",
+        "summary": "本公司一家专注于即时配送行业整体服务的专业公司，美团、饿了么、京东，肯德基、麦当劳、必胜客、山姆会员超市、奥乐齐超市、大润发超市、叮咚买菜、小象超市、盒马鲜生等。招聘专员/主管工作内容：负责协助公司总部完成人才招聘工作，包括筛选简历、与求职者聊天沟通，讲解薪资待遇，邀约面试，跟踪",
+        "jobTitle": "企业招聘顾问招聘专员/双休/早九晚五",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1162,8 +2440,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1171,28 +2460,80 @@
         "sourceTitle": "培训讲师（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519801630J40832104309.htm",
         "capturedAt": "2026-04-06",
-        "summary": "1. 根据公司需求，设计并实施各类培训课程，提升员工的专业技能和综合素质。2. 跟踪培训效果，收集反馈意见，持续优化培训方案。3. 与各部门保持沟通，了解培训需求，及时调整培训计划。4. 制定年度培训计划，并组织实施。任职要求：1. 教育背景：大专及以上学历，人力资源管理、心理学"
+        "evidenceQuote": "",
+        "summary": "1. 根据公司需求，设计并实施各类培训课程，提升员工的专业技能和综合素质。2. 跟踪培训效果，收集反馈意见，持续优化培训方案。3. 与各部门保持沟通，了解培训需求，及时调整培训计划。4. 制定年度培训计划，并组织实施。任职要求：1. 教育背景：大专及以上学历，人力资源管理、心理学",
+        "jobTitle": "培训讲师",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
   {
-    "id": "c-6dc81bb7b2ad",
-    "name": "浙江无忧娱乐有限公司",
+    "id": "c-cb8f6c3678ee",
+    "name": "济南统一企业有限公司",
     "industry": "待补充",
     "riskLevel": "medium",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
         "sourceType": "jobsite",
-        "sourceTitle": "个人IP孵化，打造你的个人账号招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/6197eaf05c77ae3103J_09y5E1pQ.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
+        "sourceTitle": "销售代表（烟台）（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC435351510J40309416507.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "1、年龄：35岁以下，高中及以上学历，条件优秀者可适当放宽",
+        "summary": "1、年龄：35岁以下，高中及以上学历，条件优秀者可适当放宽； 2、经验：有快消品销售经验者佳； 4、责任心强，能吃苦耐劳，有上进心，具备较强的沟通能力和沟通技巧，具有亲和力；会熟练使用办公软件， 二、岗位职责： 1、通过拜访客户，维持客户关系，使公司产品优先陈列； 2、在上级领导",
+        "jobTitle": "销售代表（烟台）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-2656b90b1946",
+    "name": "深圳万物商企物业服务有限公司",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "设计主管（勒泰商业中心）（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC859231840J40777180015.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职要求： 1、基本素质： 年龄：35岁以下 学历：本科 专业要求：设计类 2、硬性要求： 有美术基础，",
+        "summary": "任职要求： 1、基本素质： 年龄：35岁以下 学历：本科 专业要求：设计类 2、硬性要求： 有美术基础，能熟练应用PS、AI等相关平面设计软件；会手绘，会简单的CAD绘制。 对色彩敏感，设计形象符合营销活动调性； 对各类广告、印刷材料的特性十分熟悉，熟悉广告制作的相关法律； 深入",
+        "jobTitle": "设计主管（勒泰商业中心）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1200,20 +2541,89 @@
     "id": "c-4fa339dc5bcc",
     "name": "王老吉大健康",
     "industry": "待补充",
-    "riskLevel": "medium",
+    "riskLevel": "high",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "clear",
+    "ageRiskConfidence": "high",
+    "conclusionReason": "发现 3 条证据包含“35岁以下/35周岁以下”，达到明确风险阈值。",
+    "evidenceLevel": "L3",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 3,
     "pendingProducts": [],
     "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "销售代表（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC457050920J40607211710.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "> 岗位要求： 1、年龄35岁以下，高中及同等以上学历，专业不限，男女不限",
+        "summary": "工作职责 1、了解办事处发展战略，完成片区销售目标，为辖区内零售终端市场提供专业性支持工作； 2、月度行动计划提报与追踪，完成各项月度销售指标； 3、执行片区市场活动方案，重点客户促销活动谈判； 4、配合销售主管进行渠道管理和客户管理； 5、配合销售主管进行信息管理，建立片区客户",
+        "jobTitle": "销售代表",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "销售代表（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC457050920J40840043810.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "> 岗位要求： 1、年龄35岁以下，高中及同等以上学历，专业不限，男女不限",
+        "summary": "工作职责 1、了解办事处发展战略，完成片区销售目标，为辖区内零售终端市场提供专业性支持工作； 2、月度行动计划提报与追踪，完成各项月度销售指标； 3、执行片区市场活动方案，重点客户促销活动谈判； 4、配合销售主管进行渠道管理和客户管理； 5、配合销售主管进行信息管理，建立片区客户",
+        "jobTitle": "销售代表",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
       {
         "sourceType": "jobsite",
         "sourceTitle": "销售代表-枞阳县（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC457050920J40598026510.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责：1、负责分工区域的市场管理，维护市场秩序；2、完成所分工区域的市场开拓、产品销售任务；3、与所分工区域的客户沟通联系，及时送货、办理退货、处理客诉等；4、负责所分工区域的产品形象、生动化按公司的标准化作业执行；5、负责所分工区域的市场调研工作和代理商评估工作；6、负责所"
+        "evidenceQuote": "1、35岁以下，一年以上酒类、饮料类快销销售工作经验",
+        "summary": "岗位职责：1、负责分工区域的市场管理，维护市场秩序；2、完成所分工区域的市场开拓、产品销售任务；3、与所分工区域的客户沟通联系，及时送货、办理退货、处理客诉等；4、负责所分工区域的产品形象、生动化按公司的标准化作业执行；5、负责所分工区域的市场调研工作和代理商评估工作；6、负责所",
+        "jobTitle": "销售代表-枞阳县",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-16704265291e",
+    "name": "石家庄以岭药业股份有限公司",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "临床医药代表（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC175270720J40503365106.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职要求：35岁以下，统招大专及以上学历，医学药学专业，具有医药销售经验一年以上",
+        "summary": "任职要求：35岁以下，统招大专及以上学历，医学药学专业，具有医药销售经验一年以上。职位福利：定期团建、通讯补助、带薪年假、绩效奖金、六险一金、优秀员工奖金、鼓励内部创新、多次晋升机会",
+        "jobTitle": "临床医药代表",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1224,38 +2634,41 @@
     "riskLevel": "medium",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
     "pendingProducts": [],
     "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "社文管家（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC577299820J40874290703.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "1、35岁以下，大专及以上学历",
+        "summary": "一、岗位职责1、负责大项目生活服务板块的经营指标达成，协调横向部门资源，推动业务协同，确保目标实现；2、负责数据管理、合同审核、识别和管控运营风险，保障业务运行；3、盘点社区经营性资源，制定并执行招商计划，拓展客户资源，完成签约合作，提升资源利用率；4、开发和维护客户关系，推进商",
+        "jobTitle": "社文管家",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
       {
         "sourceType": "jobsite",
         "sourceTitle": "项目经理（双休+大平台）（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC577299820J40465258703.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责：1、负责服务中心全面日常管理工作；2、执行公司质量体系及相关规章制度；3、项目年度经营目标及管理目标完成、指挥调度、过程监控；4、客户服务（客户满意、需求发现、投诉处理、社区文化建设）；5、负责项目各类突发事件处理、报告；6、负责员工的调配、培训、考核、工作监督、表扬激"
-      }
-    ]
-  },
-  {
-    "id": "c-d5070abc1323",
-    "name": "福州亿游星动文化传媒",
-    "industry": "待补充",
-    "riskLevel": "medium",
-    "verificationStatus": "pending",
-    "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
-    "summary": "来自数据库导出，需持续补充多源证据。",
-    "products": [],
-    "pendingProducts": [],
-    "evidence": [
-      {
-        "sourceType": "jobsite",
-        "sourceTitle": "游戏主播招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/89b3efb01851c7e41H1_0921FVVY.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
+        "evidenceQuote": "1、大专及以上学历，35岁以下",
+        "summary": "岗位职责：1、负责服务中心全面日常管理工作；2、执行公司质量体系及相关规章制度；3、项目年度经营目标及管理目标完成、指挥调度、过程监控；4、客户服务（客户满意、需求发现、投诉处理、社区文化建设）；5、负责项目各类突发事件处理、报告；6、负责员工的调配、培训、考核、工作监督、表扬激",
+        "jobTitle": "项目经理（双休+大平台）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1267,8 +2680,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1276,7 +2700,45 @@
         "sourceTitle": "人工智能研究院院长（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1430764240J40870682812.htm",
         "capturedAt": "2026-04-06",
-        "summary": "一、岗位职责 （1）战略与规划：全面负责人工智能研究院的战略规划、顶层设计与组织实施。制定研究院中长期发展规划及年度可执行方案，推动AI技术与教育、产业、科研的深度融合与价值重构。 （2）组织与生态建设：构建高效、开放、创新的人工智能研究院组织架构与管理体系。负责高水平研发团队的"
+        "evidenceQuote": "iv> （1）学历、年龄与经验：本科及以上学历，35岁以下，人工智能、计算机科学等相关专业优先，在人工智能、计算机科学",
+        "summary": "一、岗位职责 （1）战略与规划：全面负责人工智能研究院的战略规划、顶层设计与组织实施。制定研究院中长期发展规划及年度可执行方案，推动AI技术与教育、产业、科研的深度融合与价值重构。 （2）组织与生态建设：构建高效、开放、创新的人工智能研究院组织架构与管理体系。负责高水平研发团队的",
+        "jobTitle": "人工智能研究院院长",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-36832f23cd83",
+    "name": "苏商建设集团有限公司",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "区域总裁助理（需常驻外省市场）（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC251089430J40747365401.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "2、年龄35岁以下，一年及以上相关工作经验，有政府对接工作经验或工程建筑行业经",
+        "summary": "【岗位职责】1、负责协助领导对接和维护区域政府及企业关系，开发潜在项目信息，了解项目当地市场，协助进行投资建设项目洽谈；2、定期拜访相关政府部门，了解政策动向，及时反馈给公司内部相关部门；3、协调公司与政府部门的沟通，确保信息传递的准确性和及时性；4、协助领导做好项目市场经营，跟",
+        "jobTitle": "区域总裁助理（需常驻外省市场）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1288,8 +2750,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1297,7 +2770,10 @@
         "sourceTitle": "内分泌—医药代表（湖北宜昌）（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC371577030J40844945109.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责： 1、负责产品在目标医院内的推广，制定市场计划并确保完成任务; 2、积极主动学习产品知识，正确传递公司产品信息; 3、负责目标市场的开发和目标客户的日常维护，与客户建立良好关系，保持公司形象; 4、负责目标客户的学术推广活动，包括幻灯演讲、科室会等，配合上级及市场医学部"
+        "evidenceQuote": "v> 1.本科以上学历，医药相关专业，年龄35岁以下，身体健康; 2.认可公司",
+        "summary": "岗位职责： 1、负责产品在目标医院内的推广，制定市场计划并确保完成任务; 2、积极主动学习产品知识，正确传递公司产品信息; 3、负责目标市场的开发和目标客户的日常维护，与客户建立良好关系，保持公司形象; 4、负责目标客户的学术推广活动，包括幻灯演讲、科室会等，配合上级及市场医学部",
+        "jobTitle": "内分泌—医药代表（湖北宜昌）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1309,8 +2785,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1318,14 +2805,55 @@
         "sourceTitle": "常平市场部急招销售精英无责低薪7480元起（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC574811320J40676754411.htm",
         "capturedAt": "2026-04-06",
-        "summary": "钱和情怀，诗和远方我们都给你，在这里您将得到：1、【优厚的薪资待遇】：试用期7480，入职半年内保底8000+根据运费计算提成，综合薪酬8-15K；2、【专业的培训体系】：完善的培训带教体系，入职9天新人带薪培训，以及持续的老员工一对一带教;3、【清晰的晋升通道】：公开、透明的晋"
+        "evidenceQuote": "",
+        "summary": "钱和情怀，诗和远方我们都给你，在这里您将得到：1、【优厚的薪资待遇】：试用期7480，入职半年内保底8000+根据运费计算提成，综合薪酬8-15K；2、【专业的培训体系】：完善的培训带教体系，入职9天新人带薪培训，以及持续的老员工一对一带教;3、【清晰的晋升通道】：公开、透明的晋",
+        "jobTitle": "常平市场部急招销售精英无责低薪7480元起",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "东莞常平保底8K诚聘销售精英（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC574811320J40676755611.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责：1. 负责搜集新客户的资料并进行沟通，开发新客户；2、通过电话与客户进行有效沟通了解客户需求，挖掘客户潜力；3、维护客户关系，稳定客户业务；4、定期与合作客户进行沟通，建立良好的长期合作关系；5、月底客户款项跟进；6、积极配合和执行公司下达的章程；任职要求：1、大专以上"
+        "evidenceQuote": "",
+        "summary": "岗位职责：1. 负责搜集新客户的资料并进行沟通，开发新客户；2、通过电话与客户进行有效沟通了解客户需求，挖掘客户潜力；3、维护客户关系，稳定客户业务；4、定期与合作客户进行沟通，建立良好的长期合作关系；5、月底客户款项跟进；6、积极配合和执行公司下达的章程；任职要求：1、大专以上",
+        "jobTitle": "东莞常平保底8K诚聘销售精英",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-b51712805215",
+    "name": "达利食品集团",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "区域主管（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC166169410J40847110209.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "饮料餐饮渠道，特通渠道销售主管，要求35岁以下，有2年以上特通快消品销售经验，手上有特通渠道客户资源者优先",
+        "summary": "饮料餐饮渠道，特通渠道销售主管，要求35岁以下，有2年以上特通快消品销售经验，手上有特通渠道客户资源者优先",
+        "jobTitle": "区域主管",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1337,8 +2865,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1346,7 +2885,10 @@
         "sourceTitle": "12328交通出行监管 / 安全响应专员 双休+有带薪年假 订单处理（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC612833320J40840129401.htm",
         "capturedAt": "2026-04-06",
-        "summary": "入职既转正，上岗既高薪！接受无工作经验！带薪培训！没有试岗期，有五险一金而且双休的好工作~职位详情【薪资及福利】 1、薪资：综合月收入4-5K，上不封顶 2、带薪年假、社保，公积金 3、其他福利：舒适的办公环境、温馨的员工餐厅、微波炉、冰箱、饮水机、自动售货机 4、丰富多彩的员工"
+        "evidenceQuote": "",
+        "summary": "入职既转正，上岗既高薪！接受无工作经验！带薪培训！没有试岗期，有五险一金而且双休的好工作~职位详情【薪资及福利】 1、薪资：综合月收入4-5K，上不封顶 2、带薪年假、社保，公积金 3、其他福利：舒适的办公环境、温馨的员工餐厅、微波炉、冰箱、饮水机、自动售货机 4、丰富多彩的员工",
+        "jobTitle": "12328交通出行监管 / 安全响应专员 双休+有带薪年假 订单处理",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1354,12 +2896,23 @@
     "id": "c-62121ba2bcbe",
     "name": "金瓜子科技发展(北京)有限公司",
     "industry": "待补充",
-    "riskLevel": "medium",
+    "riskLevel": "high",
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "clear",
+    "ageRiskConfidence": "high",
+    "conclusionReason": "发现 3 条证据包含“35岁以下/35周岁以下”，达到明确风险阈值。",
+    "evidenceLevel": "L3",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 3,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1367,21 +2920,30 @@
         "sourceTitle": "梧州二手车交付顾问（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC345704180J40928173808.htm",
         "capturedAt": "2026-04-06",
-        "summary": "1、负责客户邀约、接待与车辆带看，完成客户车辆交付全流程,提供管家式服务;2、按照公司标准流程,配合本部门其他业务端口完成整体业务流工作;3、处理客户的问题及咨询与投诉，提升客户体验;4、汽车周边产品与服务的营销;5、完成本部门的业绩指标,配合团队达成【任职资格】1、大专以上学历"
+        "evidenceQuote": "",
+        "summary": "1、负责客户邀约、接待与车辆带看，完成客户车辆交付全流程,提供管家式服务;2、按照公司标准流程,配合本部门其他业务端口完成整体业务流工作;3、处理客户的问题及咨询与投诉，提升客户体验;4、汽车周边产品与服务的营销;5、完成本部门的业绩指标,配合团队达成【任职资格】1、大专以上学历",
+        "jobTitle": "梧州二手车交付顾问",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "毕节二手车交付顾问（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC345704180J40928173908.htm",
         "capturedAt": "2026-04-06",
-        "summary": "1、负责客户邀约、接待与车辆带看，完成客户车辆交付全流程,提供管家式服务;2、按照公司标准流程,配合本部门其他业务端口完成整体业务流工作;3、处理客户的问题及咨询与投诉，提升客户体验;4、汽车周边产品与服务的营销;5、完成本部门的业绩指标,配合团队达成【任职资格】1、大专以上学历"
+        "evidenceQuote": "",
+        "summary": "1、负责客户邀约、接待与车辆带看，完成客户车辆交付全流程,提供管家式服务;2、按照公司标准流程,配合本部门其他业务端口完成整体业务流工作;3、处理客户的问题及咨询与投诉，提升客户体验;4、汽车周边产品与服务的营销;5、完成本部门的业绩指标,配合团队达成【任职资格】1、大专以上学历",
+        "jobTitle": "毕节二手车交付顾问",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "瓜子急聘二手车检测师数名（南宁）（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC345704180J40802979708.htm",
         "capturedAt": "2026-04-06",
-        "summary": "任职要求:【检测师简单岗位描述】及时处理二手车检测工单，完成二手车检测，并形成检测报告上传交易平台【发展空间——公司管理层全部是公司内部晋升不外聘】储备主管-主管-储备经理-城市经理-区域经理-大区总监-全国事业部VP……每个季度一次职位晋升【检测师工作内容】1、及时处理系统下发"
+        "evidenceQuote": "",
+        "summary": "任职要求:【检测师简单岗位描述】及时处理二手车检测工单，完成二手车检测，并形成检测报告上传交易平台【发展空间——公司管理层全部是公司内部晋升不外聘】储备主管-主管-储备经理-城市经理-区域经理-大区总监-全国事业部VP……每个季度一次职位晋升【检测师工作内容】1、及时处理系统下发",
+        "jobTitle": "瓜子急聘二手车检测师数名（南宁）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1389,20 +2951,74 @@
     "id": "c-fc9ed786c74f",
     "name": "银雁科技服务集团",
     "industry": "待补充",
-    "riskLevel": "medium",
+    "riskLevel": "high",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "clear",
+    "ageRiskConfidence": "high",
+    "conclusionReason": "发现 5 条证据包含“35岁以下/35周岁以下”，达到明确风险阈值。",
+    "evidenceLevel": "L3",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 5,
     "pendingProducts": [],
     "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "银行社区经理/双休/8:30-18:00（新密支行）（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC853113380J40843019809.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "任职要求： 男女不限，35岁以下，主要负责外拓业务，有营销经验工作时间： 工作时间： 8:3",
+        "summary": "工作内容：每周1-2次社区活动，在服务好本社区居民的同时，做好本行的金融产品营销，主要营销：存款、理财、贷款、信用卡等。 任职要求： 男女不限，35岁以下，主要负责外拓业务，有营销经验工作时间： 工作时间： 8:30-18:00，双休 薪资待遇： 应发工资3400+提成+五险一金",
+        "jobTitle": "银行社区经理/双休/8:30-18:00（新密支行）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "固定月薪/客服客诉岗（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC853113380J40841867409.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "满意的回复，定期跟踪客户，完成其他工作.岗位要求:男女不限，35岁以下，大专及以上学历，专业不限，有客服或客户服务意识高经验优先.",
+        "summary": "岗位职责:负责通过电话及网络在线协助处理业务部门客户咨询解答问题和及时处理投诉客诉反馈问题，并给到正确和满意的回复，定期跟踪客户，完成其他工作.岗位要求:男女不限，35岁以下，大专及以上学历，专业不限，有客服或客户服务意识高经验优先.福利待遇:试用期工资:5963元/转正后596",
+        "jobTitle": "固定月薪/客服客诉岗",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "固定7489/贷后客诉/一档社保（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC853113380J40837556209.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "互联网银行招贷后工单客诉岗位要求:35 岁以下，男女不限，统招大专以上，有处理投诉客服或具备一定控场能力方",
+        "summary": "互联网银行招贷后工单客诉岗位要求:35 岁以下，男女不限，统招大专以上，有处理投诉客服或具备一定控场能力方面经验.岗位职责:1、负责催收工单及投诉案件的事实调查及投诉处理工作，通过与客户沟通谈判，化解客户的投诉情绪，有效解决客户问题2、按照规范登记案件清单并及时同步负责任;3、在",
+        "jobTitle": "固定7489/贷后客诉/一档社保",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "市区银行驻点客户经理（月入1W+周末双休）（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CC853113380J40799257309.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "周末双休;4、生日福利、节日福利、团建等 【岗位要求】 1、35 岁以下，大专及以上学历; 2、金融、会计、经济、市场营销等相关专业",
+        "summary": "【薪酬福利】:1、基本薪资+提成，综合9K-12K;2、专业培训+完善晋升通道3、五险，周末双休;4、生日福利、节日福利、团建等 【岗位要求】 1、35 岁以下，大专及以上学历; 2、金融、会计、经济、市场营销等相关专业优先; 3、守法诚信，无任何违法犯罪记录及其他不良记录，具有",
+        "jobTitle": "市区银行驻点客户经理（月入1W+周末双休）",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
       {
         "sourceType": "jobsite",
         "sourceTitle": "就近安排/底薪5000/销售（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC853113380J40844698409.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责:负责公司新老客户一年一度即将到期的，进行电话和微信提醒续费续交办理业务，无需外出办公，公司提供客户资源，续费成功既有提成的电话外呼工作.薪资待遇:试用期：无责保底5000+阶梯式提成+奖金，转正阶梯式底薪+阶梯式提成，综合工资8000-15000元/月不等其他福利1、五"
+        "evidenceQuote": "",
+        "summary": "岗位职责:负责公司新老客户一年一度即将到期的，进行电话和微信提醒续费续交办理业务，无需外出办公，公司提供客户资源，续费成功既有提成的电话外呼工作.薪资待遇:试用期：无责保底5000+阶梯式提成+奖金，转正阶梯式底薪+阶梯式提成，综合工资8000-15000元/月不等其他福利1、五",
+        "jobTitle": "就近安排/底薪5000/销售",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1414,8 +3030,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1423,7 +3050,10 @@
         "sourceTitle": "物业管家（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC130789200J40856661705.htm",
         "capturedAt": "2026-04-06",
-        "summary": "一、客户服务与沟通接待业主来访、来电、微信咨询，快速响应报修、投诉、咨询处理物业费收缴、催缴，解答费用明细疑问建立业主档案，记录服务诉求与处理进度，做好回访组织社区文化活动、节日关怀，维护邻里关系二、报修与维修协调受理房屋、公共设施、水电、门禁、电梯等报修对接工程维修人员，跟进维"
+        "evidenceQuote": "",
+        "summary": "一、客户服务与沟通接待业主来访、来电、微信咨询，快速响应报修、投诉、咨询处理物业费收缴、催缴，解答费用明细疑问建立业主档案，记录服务诉求与处理进度，做好回访组织社区文化活动、节日关怀，维护邻里关系二、报修与维修协调受理房屋、公共设施、水电、门禁、电梯等报修对接工程维修人员，跟进维",
+        "jobTitle": "物业管家",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1431,12 +3061,23 @@
     "id": "c-d2055d26c962",
     "name": "长沙骑萌盟供应链管理有限公司",
     "industry": "待补充",
-    "riskLevel": "medium",
+    "riskLevel": "high",
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "clear",
+    "ageRiskConfidence": "high",
+    "conclusionReason": "发现 29 条证据包含“35岁以下/35周岁以下”，达到明确风险阈值。",
+    "evidenceLevel": "L3",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 29,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1444,203 +3085,290 @@
         "sourceTitle": "零食小吃服务到家240一天包车（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40886298012.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "零食小吃服务到家240一天包车",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "闪购小件骑手配车住220一天（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884837312.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "闪购小件骑手配车住220一天",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "7天2000外卖员提供车住预支工资（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884838112.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福"
+        "evidenceQuote": "",
+        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福",
+        "jobTitle": "7天2000外卖员提供车住预支工资",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "咖啡配送员人可日结220一天（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884883112.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "咖啡配送员人可日结220一天",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "会员超市水果送货员280一天（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884834212.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福"
+        "evidenceQuote": "",
+        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福",
+        "jobTitle": "会员超市水果送货员280一天",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "送水日结240挣快钱免费包车住（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884900512.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福"
+        "evidenceQuote": "",
+        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福",
+        "jobTitle": "送水日结240挣快钱免费包车住",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "300一天固定超市送货包吃住（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40878161412.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福"
+        "evidenceQuote": "",
+        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福",
+        "jobTitle": "300一天固定超市送货包吃住",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "门店配送纯净水包住220元一天（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884828312.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福"
+        "evidenceQuote": "",
+        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福",
+        "jobTitle": "门店配送纯净水包住220元一天",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "包吃住饮料鲜花配送员240一天（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884900112.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福"
+        "evidenceQuote": "",
+        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福",
+        "jobTitle": "包吃住饮料鲜花配送员240一天",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "零食配送包车住日结240（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884900412.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "零食配送包车住日结240",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "洗衣液配送超市用品220元一天（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884871412.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福"
+        "evidenceQuote": "",
+        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福",
+        "jobTitle": "洗衣液配送超市用品220元一天",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "槟榔配送280一天包吃住（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40878169112.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "槟榔配送280一天包吃住",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "日结230只招有经济压力配送员（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884901512.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福"
+        "evidenceQuote": "",
+        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福",
+        "jobTitle": "日结230只招有经济压力配送员",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "买社保工资周结桶装水配送（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40885317512.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福"
+        "evidenceQuote": "",
+        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福",
+        "jobTitle": "买社保工资周结桶装水配送",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "工资周结300一天固定超市送货包吃住（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40885317312.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "工资周结300一天固定超市送货包吃住",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "包车住水产海鲜超市配送220元一天（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884887912.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "包车住水产海鲜超市配送220元一天",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "工资周结包吃住驻店配送买社保（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40885315912.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "工资周结包吃住驻店配送买社保",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "买社保月9K包住急招3名驻店配送（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40885316312.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福"
+        "evidenceQuote": "",
+        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福",
+        "jobTitle": "买社保月9K包住急招3名驻店配送",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "门店配送纯净水包住220元一天（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40886297812.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福"
+        "evidenceQuote": "",
+        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福",
+        "jobTitle": "门店配送纯净水包住220元一天",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "280一天只给一家超市送货包吃住（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40886299712.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "280一天只给一家超市送货包吃住",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "日结300一天人走帐清配送员（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40878162512.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "日结300一天人走帐清配送员",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "零食小吃服务到家240一天包车（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884872112.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "零食小吃服务到家240一天包车",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "240一天只送一家包车住3公里配送（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884900812.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "240一天只送一家包车住3公里配送",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "260一天只给一家超市送货包吃住（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884873512.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "260一天只给一家超市送货包吃住",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "零食配送230一天日结包车住（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884871712.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "零食配送230一天日结包车住",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "给台球厅送零食饮料结三百提供车辆（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40884766812.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福"
+        "evidenceQuote": "",
+        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福",
+        "jobTitle": "给台球厅送零食饮料结三百提供车辆",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "外卖骑手有车有住月入过万（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40877644912.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【入职福利】长期---短期---都可以1、0元入职无门槛2、免费配车3、免费住宿4、入职新人补贴5、单王1对1手把手教包会6、入职即买保险7、当天可安排住宿，当天上岗还有暖冬积分赛高额补贴及奖励等你拿哦综合工资玩着干:5000-6000正常干:6000-7000努力干:7000-"
+        "evidenceQuote": "",
+        "summary": "【入职福利】长期---短期---都可以1、0元入职无门槛2、免费配车3、免费住宿4、入职新人补贴5、单王1对1手把手教包会6、入职即买保险7、当天可安排住宿，当天上岗还有暖冬积分赛高额补贴及奖励等你拿哦综合工资玩着干:5000-6000正常干:6000-7000努力干:7000-",
+        "jobTitle": "外卖骑手有车有住月入过万",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "工资周结大型商超驻店配送300元一天（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40886262012.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福"
+        "evidenceQuote": "",
+        "summary": "岗位职责】1、负责站点3公里内外卖配送，系统自动派单，无需抢单2、每天工作8小时，无夜班，可自愿加班多接单【职位要求】1、年龄18-50岁，男女不限，身体健康，无案底2、会骑电动车，会使用智能手机导航【薪资福利】1、薪资:底薪+提成，综合工资7000-10000元，上不封顶2、福",
+        "jobTitle": "工资周结大型商超驻店配送300元一天",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "日结280人走帐清槟榔杨配送（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CCL1519612520J40885326612.htm",
         "capturedAt": "2026-04-06",
-        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-"
+        "evidenceQuote": "",
+        "summary": "【薪资待遇】1、一天工作8个小时左右2、底薪+提成+包宿+绩效奖金+给上保险3、一单提成4-30元+(不封顶)另有夜间补贴1-2块/单正常干5000-6000元努力干6000-7000元使劲干7000-8000元拼命干9000--10000元以上/月(上不封顶)综合工资6000-",
+        "jobTitle": "日结280人走帐清槟榔杨配送",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1652,8 +3380,19 @@
     "verificationStatus": "pending",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 2 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 2,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1661,14 +3400,55 @@
         "sourceTitle": "订单处理员 下班就隐身 文职6000+（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC689899530J40726735211.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责： 解决平台用户问题，提供高质量的客户服务。 岗位要求： 1. 具备良好的沟通能力和问题解决能力。 2. 排班排休，每天8小时工作制 3. 有意向在三个月一次的晋升机会中发展（多渠道发展：质检/主管/培训师）。 薪资待遇：综合薪资4000-8000元。"
+        "evidenceQuote": "",
+        "summary": "岗位职责： 解决平台用户问题，提供高质量的客户服务。 岗位要求： 1. 具备良好的沟通能力和问题解决能力。 2. 排班排休，每天8小时工作制 3. 有意向在三个月一次的晋升机会中发展（多渠道发展：质检/主管/培训师）。 薪资待遇：综合薪资4000-8000元。",
+        "jobTitle": "订单处理员 下班就隐身 文职6000+",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       },
       {
         "sourceType": "jobsite",
         "sourceTitle": "面试就过/长白班/月入1W（智联招聘）",
         "sourceUrl": "http://jobs.zhaopin.com/CC689899530J40718525511.htm",
         "capturedAt": "2026-04-06",
-        "summary": "我能给你稳定的生活，也能给你奋斗的激情~~~ 【银行官方合作】 银行外呼系统，客户资源优质，接通率85%+【数据精准高效】 每日分配100条系统筛选客户，无需自己找资源【薪资行业领先】 综合7K-3W，转正均薪1W+，提成比例 0.9%-1.8%（跳档递增）【工作稳定轻松】 固定"
+        "evidenceQuote": "",
+        "summary": "我能给你稳定的生活，也能给你奋斗的激情~~~ 【银行官方合作】 银行外呼系统，客户资源优质，接通率85%+【数据精准高效】 每日分配100条系统筛选客户，无需自己找资源【薪资行业领先】 综合7K-3W，转正均薪1W+，提成比例 0.9%-1.8%（跳档递增）【工作稳定轻松】 固定",
+        "jobTitle": "面试就过/长白班/月入1W",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      }
+    ]
+  },
+  {
+    "id": "c-3c1b1599d87c",
+    "name": "隆丰革乐美时尚有限公司",
+    "industry": "待补充",
+    "riskLevel": "medium",
+    "verificationStatus": "pending",
+    "boycottRecommended": true,
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
+    "summary": "来自数据库导出，需持续补充多源证据。",
+    "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
+    "pendingProducts": [],
+    "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "成本管理专员（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CCL1491891520J40869752903.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "l>任职要求 1.基本条件：性别不限，35岁以下，工作地点为襄县，无身高特殊要求",
+        "summary": "岗位职责财务核算及管理：负责存货出入库单据的审核与存货分析，生产报工复核、制造费用分摊、开发项目核算，以及大货工单成本费用的归集与核算等，统筹开发、大货相关成本核算管理全流程。资产监控：开展存货月度、年度盘点复核工作，出具月度及年度盘点表、呆滞表；负责固定资产年度盘点及长期闲置资",
+        "jobTitle": "成本管理专员",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1676,41 +3456,64 @@
     "id": "c-7cbb956597de",
     "name": "齐鲁制药（全国）",
     "industry": "待补充",
-    "riskLevel": "medium",
+    "riskLevel": "high",
     "verificationStatus": "pending",
     "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
+    "lastUpdated": "2026-04-07",
+    "lastEvidenceAt": "2026-04-07",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "clear",
+    "ageRiskConfidence": "high",
+    "conclusionReason": "发现 4 条证据包含“35岁以下/35周岁以下”，达到明确风险阈值。",
+    "evidenceLevel": "L3",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 4,
     "pendingProducts": [],
     "evidence": [
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "医药代表-六盘水（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CCL1280023690J40747040207.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "2. 年龄35岁以下，身体健康",
+        "summary": "招聘岗位：主管、代表工作职责：1. 在国家法律和行业法规规制下，合法合规向医生正确宣讲齐鲁制药精神产品线药品知识与药物信息，以促进医生合理用药，使病人获益；2. 负责产品在目标医院内的推广，制定市场计划并确保完成任务；3. 积极主动学习产品知识，全面正确传递公司产品信息；4. 负",
+        "jobTitle": "医药代表-六盘水",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "镇江医药代表（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CCL1280023690J40799239107.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "【任职要求】： 1、35岁以下，医学、药学及相关专业大专及以上学历，1年以上医药领域学术推",
+        "summary": "【任职要求】： 1、35岁以下，医学、药学及相关专业大专及以上学历，1年以上医药领域学术推广经验，具备学术推广的销售技能及专业功底； 2、认可公司价值观，为人诚实正直； 3、有较强的语言表达、沟通协调和学习创新能力； 4、工作积极，乐观向上，适应能力强，善于自我激励，有一定抗压能",
+        "jobTitle": "镇江医药代表",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
+      {
+        "sourceType": "jobsite",
+        "sourceTitle": "医药代表（智联招聘）",
+        "sourceUrl": "http://jobs.zhaopin.com/CCL1280023690J40817910107.htm",
+        "capturedAt": "2026-04-07",
+        "evidenceQuote": "2. 年龄35岁以下，身体健康",
+        "summary": "工作职责：1. 在国家法律和行业法规规制下，合法合规向医生正确宣讲齐鲁制药精神产品线药品知识与药物信息，以促进医生合理用药，使病人获益；2. 负责产品在目标医院内的推广，制定市场计划并确保完成任务；3. 积极主动学习产品知识，全面正确传递公司产品信息；4. 负责目标市场的开发和目",
+        "jobTitle": "医药代表",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
+      },
       {
         "sourceType": "jobsite",
         "sourceTitle": "医药代表–广西柳州、桂林（智联招聘）",
         "sourceUrl": "http://www.zhaopin.com/jobdetail/CCL1280023690J40823299007.htm",
         "capturedAt": "2026-04-06",
-        "summary": "岗位职责：1. 在国家法律和行业法规规制下，合法合规向医生正确宣讲齐鲁制药精神产品线药品知识与药物信息，以促进医生合理用药，使病人获益；2. 负责产品在目标医院内的学术推广，制定市场计划并确保完成任务；3. 积极主动学习产品知识，全面正确传递公司产品信息；4. 负责目标市场的开发"
-      }
-    ]
-  },
-  {
-    "id": "c-655d390107ad",
-    "name": "信步文化创意",
-    "industry": "待补充",
-    "riskLevel": "medium",
-    "verificationStatus": "verified",
-    "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
-    "summary": "来自数据库导出，需持续补充多源证据。",
-    "products": [],
-    "pendingProducts": [],
-    "evidence": [
-      {
-        "sourceType": "jobsite",
-        "sourceTitle": "展览展示设计师+双休+提成招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/57d340fcae6297d91Hdz2N66GFFQ.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
+        "evidenceQuote": "",
+        "summary": "岗位职责：1. 在国家法律和行业法规规制下，合法合规向医生正确宣讲齐鲁制药精神产品线药品知识与药物信息，以促进医生合理用药，使病人获益；2. 负责产品在目标医院内的学术推广，制定市场计划并确保完成任务；3. 积极主动学习产品知识，全面正确传递公司产品信息；4. 负责目标市场的开发",
+        "jobTitle": "医药代表–广西柳州、桂林",
+        "notes": "raw-list-candidate; query=35岁以下+10000人以上; company_size=10000人以上; backend-review-needed"
       }
     ]
   },
@@ -1722,6 +3525,8 @@
     "verificationStatus": "verified",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [
       {
@@ -1732,6 +3537,15 @@
         "status": "approved"
       }
     ],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1739,7 +3553,10 @@
         "sourceTitle": "手工工艺品艺术品招聘",
         "sourceUrl": "https://www.liepin.com/job/1957286581.shtml",
         "capturedAt": "2026-04-06",
-        "summary": "职位介绍含年龄上限表述"
+        "evidenceQuote": "年龄35岁以下，全职",
+        "summary": "职位介绍含年龄上限表述",
+        "jobTitle": "手工工艺品艺术品",
+        "notes": "已可打开页面并看到职位原文 | 人工复核通过 | 人工核验"
       }
     ]
   },
@@ -1751,8 +3568,19 @@
     "verificationStatus": "verified",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1760,28 +3588,10 @@
         "sourceTitle": "生产质检监察员招聘",
         "sourceUrl": "https://www.liepin.com/job/1966614409.shtml",
         "capturedAt": "2026-04-06",
-        "summary": "职位要求含年龄上限表述"
-      }
-    ]
-  },
-  {
-    "id": "c-5e8d704c95cd",
-    "name": "杭州浙理融",
-    "industry": "待补充",
-    "riskLevel": "medium",
-    "verificationStatus": "verified",
-    "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
-    "summary": "来自数据库导出，需持续补充多源证据。",
-    "products": [],
-    "pendingProducts": [],
-    "evidence": [
-      {
-        "sourceType": "jobsite",
-        "sourceTitle": "月综合2W以上，入职缴五险一金，福利下午茶招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/fe0c61a8e6feadfa1HF92dq6GVZS.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
+        "evidenceQuote": "35岁以下，大专及以上学历",
+        "summary": "职位要求含年龄上限表述",
+        "jobTitle": "生产质检监察员",
+        "notes": "来自搜索快照，需人工二次打开页面核验 | 人工核验 | 人工核验 | 人工核验"
       }
     ]
   },
@@ -1793,6 +3603,8 @@
     "verificationStatus": "verified",
     "boycottRecommended": true,
     "lastUpdated": "2026-04-06",
+    "lastEvidenceAt": "2026-04-06",
+    "lastReviewedAt": "2026-04-07 17:58:38",
     "summary": "来自数据库导出，需持续补充多源证据。",
     "products": [
       {
@@ -1803,6 +3615,15 @@
         "status": "approved"
       }
     ],
+    "productLines": [],
+    "productLine": "",
+    "ageRiskConclusion": "suspected",
+    "ageRiskConfidence": "low",
+    "conclusionReason": "发现 1 条证据包含“35岁以下/35周岁以下”，暂判定为疑似风险。",
+    "evidenceLevel": "L1",
+    "conclusionProductName": "",
+    "conclusionBusinessLine": "",
+    "conclusionEvidenceCount": 1,
     "pendingProducts": [],
     "evidence": [
       {
@@ -1810,28 +3631,10 @@
         "sourceTitle": "非车险定价岗招聘",
         "sourceUrl": "https://www.liepin.com/job/1974110211.shtml",
         "capturedAt": "2026-04-06",
-        "summary": "职位要求包含年龄门槛描述"
-      }
-    ]
-  },
-  {
-    "id": "c-b2c1ebc28984",
-    "name": "芳朵",
-    "industry": "待补充",
-    "riskLevel": "medium",
-    "verificationStatus": "verified",
-    "boycottRecommended": true,
-    "lastUpdated": "2026-04-06",
-    "summary": "来自数据库导出，需持续补充多源证据。",
-    "products": [],
-    "pendingProducts": [],
-    "evidence": [
-      {
-        "sourceType": "jobsite",
-        "sourceTitle": "杭州拱墅高薪美容师招聘 - BOSS直聘",
-        "sourceUrl": "https://www.zhipin.com/job_detail/cc165524329653eb1Hd-2dy9F1RR.html",
-        "capturedAt": "2026-04-06",
-        "summary": "未自动抽取到年龄表述，需人工复核页面。"
+        "evidenceQuote": "年龄35周岁以下（条件优秀者可放宽）",
+        "summary": "职位要求包含年龄门槛描述",
+        "jobTitle": "非车险定价岗",
+        "notes": "来自搜索快照，需人工二次打开页面核验 | 人工复核通过 | 人工核验 | 人工核验 | 人工核验 | 人工核验 | 人工核验 | 人工核验"
       }
     ]
   }

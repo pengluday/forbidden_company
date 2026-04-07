@@ -6,7 +6,7 @@ import json
 import sqlite3
 from pathlib import Path
 
-from backend.company_export import build_company_records
+from backend.company_export import build_company_records, sync_company_summaries
 
 
 def parse_args() -> argparse.Namespace:
@@ -24,6 +24,8 @@ def main() -> int:
 
     try:
         result = build_company_records(conn, include_pending=args.include_pending)
+        sync_company_summaries(conn, result)
+        conn.commit()
 
         output_path = Path(args.output)
         output_path.parent.mkdir(parents=True, exist_ok=True)

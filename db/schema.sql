@@ -53,6 +53,51 @@ CREATE TABLE IF NOT EXISTS company_products (
   UNIQUE(company_name, product_name)
 );
 
+CREATE TABLE IF NOT EXISTS companies (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  company_name TEXT NOT NULL UNIQUE,
+  product_line TEXT,
+  age_risk_conclusion TEXT NOT NULL DEFAULT 'insufficient',
+  age_risk_confidence TEXT NOT NULL DEFAULT 'low',
+  risk_level TEXT NOT NULL DEFAULT 'medium',
+  conclusion_reason TEXT,
+  evidence_level TEXT NOT NULL DEFAULT 'L1',
+  last_evidence_at TEXT,
+  last_reviewed_at TEXT,
+  boycott_recommended INTEGER NOT NULL DEFAULT 0,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS company_product_lines (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  company_name TEXT NOT NULL,
+  product_name TEXT NOT NULL,
+  business_line TEXT,
+  product_category TEXT,
+  mapping_status TEXT NOT NULL DEFAULT 'unverified',
+  mapping_source TEXT,
+  confidence TEXT NOT NULL DEFAULT 'low',
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE(company_name, product_name)
+);
+
+CREATE TABLE IF NOT EXISTS company_conclusions (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  company_name TEXT NOT NULL,
+  product_name TEXT,
+  business_line TEXT,
+  age_risk_conclusion TEXT NOT NULL,
+  age_risk_confidence TEXT NOT NULL DEFAULT 'low',
+  reason TEXT,
+  evidence_count INTEGER NOT NULL DEFAULT 0,
+  evidence_level TEXT NOT NULL DEFAULT 'L1',
+  reviewer TEXT,
+  reviewed_at TEXT,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
 CREATE TABLE IF NOT EXISTS pending_product_submissions (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   company_name TEXT NOT NULL,
@@ -72,5 +117,8 @@ CREATE INDEX IF NOT EXISTS idx_collected_company ON collected_evidence(company_n
 CREATE INDEX IF NOT EXISTS idx_collected_status ON collected_evidence(verification_status);
 CREATE INDEX IF NOT EXISTS idx_verified_company ON verified_evidence(company_name);
 CREATE INDEX IF NOT EXISTS idx_products_company ON company_products(company_name);
+CREATE INDEX IF NOT EXISTS idx_companies_name ON companies(company_name);
+CREATE INDEX IF NOT EXISTS idx_product_lines_company ON company_product_lines(company_name);
+CREATE INDEX IF NOT EXISTS idx_conclusions_company ON company_conclusions(company_name);
 CREATE INDEX IF NOT EXISTS idx_pending_products_company ON pending_product_submissions(company_name);
 CREATE INDEX IF NOT EXISTS idx_pending_products_status ON pending_product_submissions(review_status);
