@@ -1,0 +1,4 @@
+# One Xiaohongshu URL per line.
+# Paste note/share URLs here before running scripts/run_xiaohongshu_collection.sh.
+# Example:
+# https://www.xiaohongshu.com/explore/xxxxxxxxxxxx

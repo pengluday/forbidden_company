@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小红书采集器设置</title>
+    <style>
+      body {
+        margin: 0;
+        font: 14px/1.5 "PingFang SC", "SF Pro Text", "Segoe UI", sans-serif;
+        background: linear-gradient(180deg, #f8fafc, #eef2ff);
+        color: #0f172a;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 32px 20px;
+      }
+      .card {
+        background: #fff;
+        border: 1px solid rgba(15, 23, 42, 0.08);
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+      }
+      .grid {
+        display: grid;
+        gap: 12px;
+      }
+      label { display: grid; gap: 6px; }
+      input[type="text"], input[type="number"] {
+        padding: 10px 12px;
+        border: 1px solid rgba(15, 23, 42, 0.14);
+        border-radius: 12px;
+      }
+      button {
+        border: 0;
+        border-radius: 12px;
+        padding: 10px 14px;
+        cursor: pointer;
+        background: linear-gradient(135deg, #0f766e, #0f172a);
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="card grid">
+        <h1>小红书采集器设置</h1>
+        <label>
+          <span>本机服务地址</span>
+          <input id="baseUrl" type="text" placeholder="http://127.0.0.1:8787" />
+        </label>
+        <label>
+          <span>默认评论上限，0=全部</span>
+          <input id="commentLimit" type="number" min="0" step="1" value="0" />
+        </label>
+        <label>
+          <span><input id="includeComments" type="checkbox" checked /> 包含评论</span>
+        </label>
+        <button id="save">保存</button>
+        <p id="status"></p>
+      </div>
+    </main>
+    <script type="module" src="options.js"></script>
+  </body>
+  </html>

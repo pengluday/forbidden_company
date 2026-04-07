@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "小红书采集器",
+  "version": "0.1.0",
+  "description": "一键采集小红书帖子和评论，连接本机服务完成导出。",
+  "action": {
+    "default_title": "小红书采集器",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "contextMenus",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.xiaohongshu.com/*",
+    "http://127.0.0.1:8787/*",
+    "http://localhost:8787/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.xiaohongshu.com/*"
+      ],
+      "js": [
+        "content-script.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
